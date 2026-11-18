@@ -1,7 +1,8 @@
 {
- "generatedAt": "2026-11-18T11:45:26.304Z",
+ "generatedAt": "2026-11-18T12:13:47.448Z",
  "models": [
-  "gemini-3.1-flash-lite"
+  "gemini-3.1-flash-lite",
+  "gemini-3.5-flash"
  ],
  "dataset": {
   "n": 200,
@@ -56,7 +57,7 @@
   },
   {
    "key": "category",
-   "label": "비행 범주 언급"
+   "label": "VFR 아래 날씨면 비행 범주 언급"
   },
   {
    "key": "hazards",
@@ -83,25 +84,58 @@
    },
    "allCorrect": 0.19,
    "optimistic": 2
+  },
+  "gemini-3.5-flash": {
+   "answered": 200,
+   "fields": {
+    "windDir": 1,
+    "windKt": 1,
+    "gustKt": 1,
+    "visSm": 1,
+    "ceilingFt": 1,
+    "category": 1,
+    "bestRunway": 1,
+    "crossKt": 1,
+    "densityAltFt": 1
+   },
+   "allCorrect": 1,
+   "optimistic": 0
   }
  },
  "hybrid": {
   "gemini-3.1-flash-lite": {
-   "answered": 30,
+   "answered": 200,
    "checks": {
-    "numbers": 1,
-    "category": 0.5,
+    "numbers": 0.965,
+    "category": 0.92,
     "hazards": 1,
     "verdict": 1
    },
-   "allCorrect": 0.5
+   "categoryAny": 0.535,
+   "allCorrect": 0.885
+  },
+  "gemini-3.5-flash": {
+   "answered": 20,
+   "checks": {
+    "numbers": 1,
+    "category": 1,
+    "hazards": 1,
+    "verdict": 1
+   },
+   "categoryAny": 1,
+   "allCorrect": 1
   }
  },
  "cost": {
   "gemini-3.1-flash-lite": {
-   "calls": 13,
-   "avgSec": 6.290692307692308,
-   "tokens": 51267
+   "calls": 30,
+   "avgSec": 5.4899,
+   "tokens": 92845
+  },
+  "gemini-3.5-flash": {
+   "calls": 11,
+   "avgSec": 116.11372727272727,
+   "tokens": 172706
   }
  },
  "failures": [
@@ -134,12 +168,18 @@
    "title": "쓸 활주로 틀림 (gemini-3.1-flash-lite, AI 혼자)",
    "raw": "METAR KRAP 180952Z AUTO 09005KT 10SM CLR 03/02 A2961 RMK AO2 SLP024 T00330017",
    "detail": "AI: 14 → 정답 05. 뒷바람 활주로를 고르면 이착륙 거리가 크게 늘어남."
+  },
+  {
+   "n": 69,
+   "title": "코드 + AI인데도 계산에 없는 숫자를 씀 (gemini-3.1-flash-lite)",
+   "raw": "METAR KFLG 180357Z AUTO 23008KT 10SM FEW008 BKN016 OVC028 02/01 A3012 RMK AO2 SLP166 T00220006 $",
+   "detail": "AI 글의 \"6,897ft\"는 계산 결과에 없음 → 앱은 이런 경우 \"숫자 검사\" 경고를 띄움. 글: 운고 1600ft 및 시정 10SM으로 시계비행 최저치 근처의 MVFR 상태입니다. 밀도 고도가 6,897ft로 높아 이륙 거리가 길어지고 상승 성능이 저하될 수 있으니 충분한 활주로 길이를 확보하십시오.…"
   }
  ],
  "headline": [
   {
-   "label": "AI 혼자: 9개 항목 모두 맞은 METAR (gemini-3.1-flash-lite)",
-   "value": "19%"
+   "label": "AI 혼자: 9개 항목 모두 맞은 METAR (gemini-3.5-flash)",
+   "value": "100%"
   },
   {
    "label": "AI 혼자: 날씨를 실제보다 좋게 본 위험한 오답 (gemini-3.1-flash-lite)",
@@ -147,7 +187,7 @@
   },
   {
    "label": "코드 + AI: 4가지 검사 모두 통과 (gemini-3.1-flash-lite)",
-   "value": "50%"
+   "value": "89%"
   }
  ]
 }

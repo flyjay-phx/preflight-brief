@@ -5102,9 +5102,41 @@
   ],
   "hybridFails": [
    {
-    "n": 5,
-    "raw": "METAR KCHD 172347Z 24007G17KT 10SM BKN040 20/09 A3000",
-    "text": "KCHD 공항은 돌풍 차이 10kt(7→17kt)의 위험 요소가 있어 주의가 필요합니다. 풍향 228도에서 7kt의 바람이 불며 시정은 10sm, 운고는 4000ft입니다. 밀도고도는 2040ft이며 22L 활주로를 권장합니다.",
+    "n": 52,
+    "raw": "METAR KSLC 180354Z VRB03KT 2SM -SN BR FEW004 BKN011 OVC019 01/M01 A3000 RMK AO2 SFC VIS 5 SLP152 P0006 T00061006 $",
+    "text": "KSLC 공항은 운고 1100ft, 시정 2SM으로 시계비행이 불가하여 비행을 취소합니다. 착빙 및 눈 가능성이 있으며 기상 조건이 매우 좋지 않습니다. 안전을 위해 운항을 중단합니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 62,
+    "raw": "METAR KAMA 180153Z 17022G29KT 10SM OVC007 08/07 A3018 RMK AO2 PK WND 19029/0058 SLP209 T00830067",
+    "text": "운고 700ft와 시정 10SM으로 시계비행이 불가하며, 돌풍 29kt가 관측됩니다. 특히 활주로 13에서 돌풍 시 옆바람이 15kt로 세스나 172의 최대 옆바람 한계를 초과하여 비행이 위험합니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 69,
+    "raw": "METAR KFLG 180357Z AUTO 23008KT 10SM FEW008 BKN016 OVC028 02/01 A3012 RMK AO2 SLP166 T00220006 $",
+    "text": "운고 1600ft 및 시정 10SM으로 시계비행 최저치 근처의 MVFR 상태입니다. 밀도 고도가 6,897ft로 높아 이륙 거리가 길어지고 상승 성능이 저하될 수 있으니 충분한 활주로 길이를 확보하십시오.",
+    "unknown": [
+     "6,897ft"
+    ],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 91,
+    "raw": "METAR KMSY 180053Z 04009KT 10SM BKN025 16/12 A3028 RMK AO2 SLP255 T01610122",
+    "text": "운고 2500ft와 시정 10SM으로 시계비행 최저치에 근접하여 주의가 필요합니다. 02번 활주로 이용 시 정풍 8.4kt와 측풍 3.2kt가 예상됩니다. 기상 상태를 면밀히 확인하고 비행을 준비하십시오.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5112,9 +5144,9 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 9,
-    "raw": "METAR KORL 180253Z 05007KT 10SM -RA FEW030 SCT037 OVC080 18/17 A3024 RMK AO2 SLP244 P0000 60011 T01830172 55004",
-    "text": "KORL 공항은 기온·이슬점 차 1.1°C로 안개나 낮은 구름이 생길 수 있어 주의가 필요합니다. 풍향 56도에서 7kt의 바람이 불며 시정은 10sm, 운고는 8000ft입니다. 밀도고도는 130ft이며 07 활주로를 권장합니다.",
+    "n": 93,
+    "raw": "METAR KFLG 180457Z AUTO 27007KT 10SM SCT014 BKN020 01/M01 A3013 RMK AO2 SLP170 T00111006 $",
+    "text": "운고 2000ft와 시정 10SM으로 시계비행 최저치에 근접한 상태입니다. 밀도 고도가 6750ft로 높아 이륙 거리 증가와 상승 성능 저하가 우려됩니다. 21번 활주로 이용 시 정풍 4.5kt와 측풍 5.4kt를 고려하십시오.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5122,9 +5154,9 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 10,
-    "raw": "METAR KRAP 180552Z AUTO 21010G20KT 10SM CLR 08/04 A2964 RMK AO2 SLP034 T00830039 10133 20061 56013",
-    "text": "KRAP 공항은 돌풍 차이 10kt(10→20kt)의 위험 요소가 있어 주의가 필요합니다. 풍향 202도에서 10kt의 바람이 불며 시정은 10sm입니다. 밀도고도는 3470ft이며 23 활주로를 권장합니다.",
+    "n": 94,
+    "raw": "METAR KBIS 172352Z AUTO 12009KT 10SM OVC028 10/06 A2974 RMK AO2 SLP081 T01000056 10133 20078 56007",
+    "text": "운고 2800ft와 시정 10SM으로 시계비행 최저치에 근접하여 주의가 필요합니다. 13번 활주로 이용 시 정풍 8.6kt가 예상됩니다. 안전한 비행을 위해 기상 상황을 지속적으로 모니터링하십시오.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5132,9 +5164,9 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 13,
-    "raw": "METAR KIAD 180852Z 00000KT 10SM CLR M01/M02 A3052 RMK AO2 SLP335 I1001 I3001 T10111017 58003",
-    "text": "KIAD 공항은 기온과 이슬점 차가 0.6°C로 낮아 안개나 낮은 구름이 발생할 위험이 있습니다. 시정은 10SM이며 밀도고도는 -2310ft입니다. 01C 활주로를 이용하며 주의 깊게 기상 변화를 관찰하십시오.",
+    "n": 97,
+    "raw": "METAR KFAR 172053Z 15013G18KT 10SM OVC027 12/06 A2994 RMK AO2 SLP144 T01170056 58017",
+    "text": "운고 2700ft와 시정 10SM으로 시계비행 최저치에 근접해 있습니다. 최대 18kt의 돌풍이 예보되어 있어 주의가 필요합니다. 13번 활주로 이용 시 정풍 12.5kt와 측풍 3.6kt가 예상됩니다.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5142,9 +5174,9 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 16,
-    "raw": "METAR KRAP 180952Z AUTO 09005KT 10SM CLR 03/02 A2961 RMK AO2 SLP024 T00330017",
-    "text": "KRAP 공항은 기온과 이슬점 차가 1.6°C로 안개나 낮은 구름이 발생할 가능성이 있어 주의가 필요합니다. 밀도고도는 2910ft이며 05 활주로 이용 시 4.2kt의 정풍과 2.6kt의 측풍이 예상됩니다. 시정은 10SM으로 확보되어 있습니다.",
+    "n": 98,
+    "raw": "METAR KBIS 172252Z AUTO 14010KT 10SM OVC024 10/06 A2975 RMK AO2 SLP084 T01000056",
+    "text": "운고 2400ft와 시정 10SM으로 시계비행 최저치에 근접한 상태입니다. 13번 활주로 이용 시 정풍 10kt와 측풍 0.5kt가 예상됩니다. 기상 변화에 유의하며 비행을 준비하십시오.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5152,19 +5184,9 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 21,
-    "raw": "METAR KSMX 180351Z AUTO 00000KT 10SM CLR 11/07 A3015 RMK AO2 SLP215 T01110072",
-    "text": "KSMX 공항은 시정 10SM으로 기상 조건이 양호합니다. 바람은 346도에서 0kt로 불어 이착륙에 지장이 없습니다. 밀도 고도는 -460ft로 항공기 성능에 긍정적인 영향을 줍니다.",
-    "unknown": [],
-    "missing": [],
-    "flipped": false,
-    "verdict": "GO",
-    "truthVerdict": "GO"
-   },
-   {
-    "n": 22,
-    "raw": "METAR KBOS 172254Z 24009G19KT 10SM FEW250 12/02 A3036 RMK AO2 SLP281 T01170017",
-    "text": "KBOS 공항은 돌풍 차이 10kt(9→19kt)가 발생하여 주의가 필요합니다. 바람은 255도에서 9kt로 불며, 27번 활주로 이용 시 정풍 8.7kt가 예상됩니다. 기상 상황을 면밀히 주시하며 비행하시기 바랍니다.",
+    "n": 105,
+    "raw": "METAR KSTS 180953Z AUTO 15017G26KT 6SM -RA BR OVC021 11/10 A2991 RMK AO2 PK WND 15026/0943 SLP121 P0015 T01110100",
+    "text": "KSTS 공항은 운고 2100ft, 시정 6SM으로 VFR 최저치 근처이며 돌풍 26kt가 예상되어 주의가 필요합니다. 14 활주로를 이용하며 정풍 16.9kt 조건입니다. 밀도 고도는 -310ft입니다.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5172,9 +5194,29 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 23,
-    "raw": "METAR KABQ 180052Z 18008KT 10SM SCT035 BKN090 11/07 A3007 RMK AO2 SLP158 MTN TOPS OBSC NE AND SE SHRA DSNT SW-NW T01060067",
-    "text": "KABQ 공항은 밀도 고도가 5,880ft로 높아 이륙 거리가 늘어나고 상승 성능이 약해질 수 있습니다. 21번 활주로 이용 시 정풍 6kt가 예상됩니다. 높은 밀도 고도로 인한 성능 저하를 반드시 고려하십시오.",
+    "n": 108,
+    "raw": "METAR KFXE 180053Z 11017KT 2SM +RA BR SCT019 OVC026 23/21 A3012 RMK AO2 LTG DSNT SE AND S SLP201 P0129 T02280206",
+    "text": "KFXE 공항은 운고 2600ft, 시정 2SM으로 VFR 비행이 불가하여 비행이 제한됩니다. 13 활주로를 이용하며 정풍 16.6kt 조건입니다. 밀도 고도는 700ft입니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 121,
+    "raw": "METAR KFXE 172353Z 09017G22KT 2SM +RA BR BKN026 OVC034 22/21 A3012 RMK AO2 SLP201 P0067 60106 T02220206 10256 20217 51004",
+    "text": "운고 2600ft와 시정 2SM으로 인해 시계비행이 불가능하여 NO-GO 판정입니다. 또한 22kt의 돌풍이 예상되어 비행 안전에 위험이 있습니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 123,
+    "raw": "METAR KFXE 180753Z 11013G24KT 3SM RA BR SCT016 BKN026 OVC045 22/21 A3008 RMK AO2 SLP188 P0017 T02220211",
+    "text": "운고 2600ft와 시정 3SM으로 시계비행 최저치에 근접하여 주의가 필요합니다. 13kt에서 24kt로 변하는 11kt의 돌풍 차이가 있으므로 이착륙 시 유의하십시오.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5182,29 +5224,9 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 24,
-    "raw": "METAR KTUS 180753Z 15004KT 10SM CLR 12/07 A3014 RMK AO2 SLP178 T01170067",
-    "text": "KTUS 공항은 시정 10SM으로 비행하기에 적합합니다. 12번 활주로 이용 시 정풍 3.7kt와 측풍 1.4kt가 예상됩니다. 밀도 고도는 2,490ft로 안정적인 비행이 가능합니다.",
-    "unknown": [],
-    "missing": [],
-    "flipped": false,
-    "verdict": "GO",
-    "truthVerdict": "GO"
-   },
-   {
-    "n": 25,
-    "raw": "METAR KBHM 180553Z 08005KT 10SM CLR 11/M01 A3046 RMK AO2 SLP311 T01111011 10128 20100 401940050 50002",
-    "text": "KBHM 공항은 시정 10SM으로 기상 상태가 양호합니다. 06번 활주로 이용 시 정풍 4.6kt와 측풍 2kt가 예상됩니다. 밀도 고도는 -360ft로 항공기 운용에 매우 유리합니다.",
-    "unknown": [],
-    "missing": [],
-    "flipped": false,
-    "verdict": "GO",
-    "truthVerdict": "GO"
-   },
-   {
-    "n": 26,
-    "raw": "METAR KCMH 180951Z 00000KT 9SM CLR M01/M02 A3051 RMK AO2 SLP337 T10061017",
-    "text": "KCMH 공항은 기온과 이슬점 차이가 1.1°C로 낮아 안개나 낮은 구름이 생길 위험이 있습니다. 시정은 9SM이며 10R 활주로 이용 시 바람은 0kt입니다. 기상 변화를 지속적으로 확인하십시오.",
+    "n": 124,
+    "raw": "METAR KMIA 180253Z 11016G22KT 10SM BKN030 BKN044 OVC050 25/19 A3011 RMK AO2 PK WND 12026/0238 SLP195 60000 T02500194 50001 $",
+    "text": "운고 3000ft와 시정 10SM으로 시계비행 최저치 근처에 머물러 있어 주의가 필요합니다. 22kt의 돌풍이 예상되므로 조종에 각별히 신경 써야 합니다.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5212,9 +5234,19 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 27,
-    "raw": "METAR KBJC 180855Z AUTO 28003KT 10SM CLR 09/M02 A2981 RMK AO2",
-    "text": "KBJC 공항은 밀도 고도가 6,310ft로 매우 높아 이륙 거리 증가와 상승 성능 저하가 우려됩니다. 30R 활주로 이용 시 정풍 2.6kt가 예상됩니다. 높은 밀도 고도에 따른 성능 변화를 철저히 계산하십시오.",
+    "n": 126,
+    "raw": "METAR KAMA 180253Z 18017G30KT 10SM OVC006 08/07 A3018 RMK AO2 PK WND 19034/0205 SLP210 T00830067 55005",
+    "text": "운고 600ft와 시정 10SM으로 시계비행이 불가능하여 NO-GO입니다. 돌풍 시 옆바람이 20kt에 달해 세스나 172의 최대 옆바람 한계인 15kt를 초과하며, 13kt의 돌풍 차이도 위험 요소입니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 127,
+    "raw": "METAR KSTS 181053Z AUTO 14018G28KT 3SM +RA BR FEW010 SCT018 OVC025 11/10 A2987 RMK AO2 PK WND 15029/1041 SLP108 P0024 T01060100",
+    "text": "운고 2500ft와 시정 3SM으로 시계비행 최저치에 근접하여 주의가 필요합니다. 18kt에서 28kt로 변하는 10kt의 돌풍 차이가 있으므로 이착륙 시 주의하십시오.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5222,19 +5254,9 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 28,
-    "raw": "METAR KDET 180853Z 23004KT 7SM CLR 05/02 A3047 RMK AO2 SLP322 T00500017 55002",
-    "text": "KDET 공항은 시정 7SM으로 비행이 가능합니다. 15번 활주로 이용 시 정풍 0.3kt와 측풍 4kt가 예상됩니다. 밀도 고도는 -1,110ft로 항공기 성능에 매우 좋습니다.",
-    "unknown": [],
-    "missing": [],
-    "flipped": false,
-    "verdict": "GO",
-    "truthVerdict": "GO"
-   },
-   {
-    "n": 29,
-    "raw": "METAR KACV 172253Z AUTO 15014G23KT 10SM SCT055 13/04 A2995 RMK AO2 SLP149 T01330044",
-    "text": "KACV 공항은 돌풍이 23kt까지 불어 주의가 필요합니다. 14번 활주로 이용 시 정풍 13.9kt와 측풍 -1.7kt가 예상됩니다. 강한 돌풍에 대비하여 안전한 이착륙을 수행하십시오.",
+    "n": 129,
+    "raw": "METAR KSLC 172254Z 33009KT 10SM FEW009 BKN023 BKN041 06/04 A2974 RMK AO2 WSHFT 2158 RAE36 SLP052 P0002 T00610039 $",
+    "text": "운고 2300ft와 시정 10SM으로 시계비행 최저치에 근접하여 주의가 필요합니다. 기상 상황을 지속적으로 확인하며 비행하십시오.",
     "unknown": [],
     "missing": [],
     "flipped": false,
@@ -5242,15 +5264,91 @@
     "truthVerdict": "CAUTION"
    },
    {
-    "n": 30,
-    "raw": "METAR KRAP 172152Z 18019G24KT 10SM CLR 19/02 A2966 RMK AO2 SLP038 T01940022 $",
-    "text": "KRAP 공항은 돌풍 24kt와 함께 돌풍 시 측풍이 13kt로 학생 조종사 한계인 10kt를 초과하여 주의가 필요합니다. 14번 활주로 이용 시 정풍 16.1kt와 측풍 10.1kt가 예상됩니다. 기상 한계를 고려하여 신중하게 판단하십시오.",
+    "n": 130,
+    "raw": "METAR KAMA 172353Z 19019KT 10SM OVC009 09/07 A3019 RMK AO2 PK WND 17029/2302 CIG 007V013 SLP212 T00890072 10094 20089 55000",
+    "text": "운고 900ft와 시정 10SM으로 시계비행이 불가능하여 NO-GO입니다. 활주로 22 기준 옆바람이 12kt로 학생 예시 한계인 10kt를 초과하여 비행이 어렵습니다.",
     "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 151,
+    "raw": "METAR KSAF 180653Z AUTO 20004KT 10SM BKN004 OVC080 06/06 A3013 RMK AO2 RAE44 SLP162 P0003 T00610061 401111006 $",
+    "text": "운고 400ft와 시정 10SM으로 인해 시계비행이 불가능한 LIFR 상태입니다. 밀도 고도가 6,475ft로 높아 이륙 거리가 늘어나고 상승 성능이 약해질 위험이 있습니다. 비행을 취소하십시오.",
+    "unknown": [
+     "6,475ft"
+    ],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 152,
+    "raw": "METAR KFLG 180057Z 24010KT 10SM -RA FEW013 BKN022 OVC041 03/02 A3006 RMK AO2 RAB49 SLP138 P0000 T00330017 $",
+    "text": "운고 2,200ft와 시정 10SM으로 시계비행 최저치에 근접한 MVFR 상태입니다. 밀도 고도가 7,104ft로 높아 이륙 및 상승 성능 저하가 예상되니 주의하십시오.",
+    "unknown": [
+     "7,104ft"
+    ],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 155,
+    "raw": "METAR KAPA 172353Z COR 21019KT 10SM FEW150 SCT220 16/M04 A2979 RMK AO2 PK WND 22032/2306 SLP064 T01561044 10183 20150 55012",
+    "text": "활주로 17L 기준 옆바람이 10kt로 학생 조종사 한계를 초과합니다. 밀도 고도 또한 7,519ft로 높아 이륙 거리 증가와 상승 성능 저하가 우려되니 주의가 필요합니다.",
+    "unknown": [
+     "7,519ft"
+    ],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 157,
+    "raw": "METAR KIWA 172056Z 25013KT 10SM ACT041 SCT049 10/13 A2297",
+    "text": "활주로 30L 기준 옆바람이 12kt로 한계를 초과하며, 밀도 고도가 9,727ft로 매우 높습니다. 기온과 이슬점 차이가 -3°C로 안개 발생 가능성이 있으니 각별히 주의하십시오.",
+    "unknown": [
+     "9,727ft"
+    ],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 159,
+    "raw": "METAR KABQ 180452Z 24009G30KT 2SM +TSRA BR SCT040 BKN060CB OVC080 09/07 A3012 RMK AO2 PK WND 26030/0444 RAB14 TSB42 SLP174 OCNL LTGICCG OHD AND SW AND N TS OHD AND SW AND N MOV NE MTNS OBSC NE-SE P0012 T00890067",
+    "text": "시정 2SM과 운고 6,000ft로 시계비행이 불가능한 IFR 상태입니다. 뇌우 보고와 함께 돌풍 차이가 21kt에 달하고 밀도 고도가 5,611ft로 높아 비행을 금지합니다.",
+    "unknown": [
+     "5,611ft"
+    ],
+    "missing": [],
+    "flipped": false,
+    "verdict": "NO-GO",
+    "truthVerdict": "NO-GO"
+   },
+   {
+    "n": 164,
+    "raw": "METAR KDEN 180153Z 26007KT 10SM BKN250 06/02 A2977 RMK AO2 SLP069 T00610022",
+    "text": "밀도 고도가 5,855ft로 높아 이륙 거리가 늘어나고 상승 성능이 약해질 수 있습니다. 운고 25000ft와 시정 10SM으로 VFR 상태이나 고도에 따른 성능 변화를 고려하십시오.",
+    "unknown": [
+     "5,855ft"
+    ],
     "missing": [],
     "flipped": false,
     "verdict": "CAUTION",
     "truthVerdict": "CAUTION"
    }
   ]
+ },
+ "gemini-3.5-flash": {
+  "aiOnlyFails": [],
+  "hybridFails": []
  }
 }
