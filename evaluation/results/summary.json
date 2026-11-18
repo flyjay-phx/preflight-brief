@@ -1,0 +1,153 @@
+{
+ "generatedAt": "2026-11-18T11:45:26.304Z",
+ "models": [
+  "gemini-3.1-flash-lite"
+ ],
+ "dataset": {
+  "n": 200,
+  "airports": 81,
+  "collectedAt": "2026-11-18T11:34:03.475Z",
+  "nonVfr": 52,
+  "gust": 59,
+  "officialMatch": "200/200"
+ },
+ "fields": [
+  {
+   "key": "windDir",
+   "label": "풍향"
+  },
+  {
+   "key": "windKt",
+   "label": "풍속"
+  },
+  {
+   "key": "gustKt",
+   "label": "돌풍"
+  },
+  {
+   "key": "visSm",
+   "label": "시정"
+  },
+  {
+   "key": "ceilingFt",
+   "label": "운고"
+  },
+  {
+   "key": "category",
+   "label": "비행 범주 (VFR/IFR)"
+  },
+  {
+   "key": "bestRunway",
+   "label": "쓸 활주로"
+  },
+  {
+   "key": "crossKt",
+   "label": "옆바람 (±2kt)"
+  },
+  {
+   "key": "densityAltFt",
+   "label": "밀도 고도 (±300ft)"
+  }
+ ],
+ "briefChecks": [
+  {
+   "key": "numbers",
+   "label": "숫자가 모두 계산값과 일치"
+  },
+  {
+   "key": "category",
+   "label": "비행 범주 언급"
+  },
+  {
+   "key": "hazards",
+   "label": "위험 요소 빠짐없이 언급"
+  },
+  {
+   "key": "verdict",
+   "label": "판정을 뒤집지 않음"
+  }
+ ],
+ "aiOnly": {
+  "gemini-3.1-flash-lite": {
+   "answered": 200,
+   "fields": {
+    "windDir": 1,
+    "windKt": 1,
+    "gustKt": 1,
+    "visSm": 1,
+    "ceilingFt": 0.89,
+    "category": 0.95,
+    "bestRunway": 0.925,
+    "crossKt": 0.74,
+    "densityAltFt": 0.305
+   },
+   "allCorrect": 0.19,
+   "optimistic": 2
+  }
+ },
+ "hybrid": {
+  "gemini-3.1-flash-lite": {
+   "answered": 30,
+   "checks": {
+    "numbers": 1,
+    "category": 0.5,
+    "hazards": 1,
+    "verdict": 1
+   },
+   "allCorrect": 0.5
+  }
+ },
+ "cost": {
+  "gemini-3.1-flash-lite": {
+   "calls": 13,
+   "avgSec": 6.290692307692308,
+   "tokens": 51267
+  }
+ },
+ "failures": [
+  {
+   "n": 68,
+   "title": "날씨를 실제보다 좋게 판정 (gemini-3.1-flash-lite, AI 혼자)",
+   "raw": "METAR KPDX 172253Z 13007KT 080V150 10SM BKN030 BKN041 BKN060 12/06 A2991 RMK AO2 SLP129 T01220056 $",
+   "detail": "AI: VFR (운고 3000, 시정 10) → 정답: MVFR (운고 3000, 시정 10). 학생이 그대로 믿으면 시계비행이 안 되는 날씨에 나갈 수 있는 위험한 오답."
+  },
+  {
+   "n": 18,
+   "title": "옆바람 계산 틀림 (gemini-3.1-flash-lite, AI 혼자)",
+   "raw": "METAR KRAP 180452Z 18014KT 10SM CLR 08/04 A2965 RMK AO2 SLP040 T00830039",
+   "detail": "AI: 활주로 14 옆바람 5kt → 정답 7.4kt. 자북 보정이나 각도 계산에서 틀림."
+  },
+  {
+   "n": 1,
+   "title": "밀도 고도 계산 틀림 (gemini-3.1-flash-lite, AI 혼자)",
+   "raw": "METAR KTOA 181115Z AUTO 23005KT 10SM BKN050 11/05 A3011 RMK AO2 T01060052 $",
+   "detail": "AI: 105ft → 정답 -640ft."
+  },
+  {
+   "n": 66,
+   "title": "운고 판단 틀림 (gemini-3.1-flash-lite, AI 혼자)",
+   "raw": "METAR KMYF 172053Z 29009G19KT 10SM SCT042 19/09 A3003 RMK AO2 SLP166 T01940094 58012",
+   "detail": "AI: 4200 → 정답 없음. FEW·SCT는 운고가 아닌데 운고로 봤거나 그 반대."
+  },
+  {
+   "n": 16,
+   "title": "쓸 활주로 틀림 (gemini-3.1-flash-lite, AI 혼자)",
+   "raw": "METAR KRAP 180952Z AUTO 09005KT 10SM CLR 03/02 A2961 RMK AO2 SLP024 T00330017",
+   "detail": "AI: 14 → 정답 05. 뒷바람 활주로를 고르면 이착륙 거리가 크게 늘어남."
+  }
+ ],
+ "headline": [
+  {
+   "label": "AI 혼자: 9개 항목 모두 맞은 METAR (gemini-3.1-flash-lite)",
+   "value": "19%"
+  },
+  {
+   "label": "AI 혼자: 날씨를 실제보다 좋게 본 위험한 오답 (gemini-3.1-flash-lite)",
+   "value": "2건"
+  },
+  {
+   "label": "코드 + AI: 4가지 검사 모두 통과 (gemini-3.1-flash-lite)",
+   "value": "50%"
+  }
+ ]
+}

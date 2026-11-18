@@ -1,0 +1,5256 @@
+{
+ "gemini-3.1-flash-lite": {
+  "aiOnlyFails": [
+   {
+    "n": 1,
+    "raw": "METAR KTOA 181115Z AUTO 23005KT 10SM BKN050 11/05 A3011 RMK AO2 T01060052 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 1,
+     "windDirTrue": 230,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 5000,
+     "category": "VFR",
+     "bestRunway": "29R",
+     "headKt": 3,
+     "crossKt": 4,
+     "densityAltFt": 105
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 5000,
+     "category": "VFR",
+     "bestRunway": "29R",
+     "crossKt": -4.8,
+     "densityAltFt": -640
+    }
+   },
+   {
+    "n": 2,
+    "raw": "METAR KAUS 172153Z 05007KT 10SM CLR 19/04 A3025 RMK AO2 SLP244 T01940039",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 2,
+     "windDirTrue": 50,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "36L",
+     "headKt": 6,
+     "crossKt": 4,
+     "densityAltFt": 358
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "36L",
+     "crossKt": 5,
+     "densityAltFt": 720
+    }
+   },
+   {
+    "n": 3,
+    "raw": "METAR KCLE 172351Z 00000KT 10SM CLR 06/02 A3050 RMK AO2 SLP353 T00560022 10122 20050 55000 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 3,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "24L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 734
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "06R",
+     "crossKt": 0,
+     "densityAltFt": -880
+    }
+   },
+   {
+    "n": 6,
+    "raw": "METAR KRDU 180151Z 00000KT 10SM CLR 07/03 A3054 RMK AO2 SLP344 T00670028",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 6,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "23L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 347
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "05L",
+     "crossKt": 0,
+     "densityAltFt": -1270
+    }
+   },
+   {
+    "n": 7,
+    "raw": "METAR KSBA 180753Z 00000KT 10SM CLR 08/03 A3010 RMK AO2 SLP193 T00780028 402060072",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 7,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": -11
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "07",
+     "crossKt": 0,
+     "densityAltFt": -1080
+    }
+   },
+   {
+    "n": 8,
+    "raw": "METAR KHIO 180953Z AUTO 08005KT 10SM -RA BKN044 OVC070 08/03 A2971 RMK AO2 RAB47 PRESFR SLP061 P0000 T00780028 TSNO $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 8,
+     "windDirTrue": 80,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 4400,
+     "category": "VFR",
+     "bestRunway": "02",
+     "headKt": 4,
+     "crossKt": 3,
+     "densityAltFt": 233
+    },
+    "truth": {
+     "windDirTrue": 80,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 4400,
+     "category": "VFR",
+     "bestRunway": "02",
+     "crossKt": 3.5,
+     "densityAltFt": -350
+    }
+   },
+   {
+    "n": 11,
+    "raw": "METAR KTOA 180715Z AUTO 00000KT 10SM CLR 12/04 A3011 RMK AO2 T01220041 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 11,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "29R",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 86
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "11L",
+     "crossKt": 0,
+     "densityAltFt": -450
+    }
+   },
+   {
+    "n": 12,
+    "raw": "METAR KMEM 180554Z 12005KT 10SM CLR 11/02 A3040 RMK AO2 SLP294 T01110017 10133 20078 401830039 58005 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 12,
+     "windDirTrue": 120,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "09",
+     "headKt": 4,
+     "crossKt": 3,
+     "densityAltFt": 176
+    },
+    "truth": {
+     "windDirTrue": 120,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "09",
+     "crossKt": 2.6,
+     "densityAltFt": -750
+    }
+   },
+   {
+    "n": 13,
+    "raw": "METAR KIAD 180852Z 00000KT 10SM CLR M01/M02 A3052 RMK AO2 SLP335 I1001 I3001 T10111017 58003",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 13,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 235
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "01C",
+     "crossKt": 0,
+     "densityAltFt": -2310
+    }
+   },
+   {
+    "n": 14,
+    "raw": "METAR KMRY 180154Z 00000KT 10SM CLR 11/07 A3013 RMK AO2 SLP216 T01110072",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 14,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "28L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 147
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "crossKt": 0,
+     "densityAltFt": -520
+    }
+   },
+   {
+    "n": 15,
+    "raw": "METAR KATL 180252Z 07010KT 10SM CLR 10/M02 A3046 RMK AO2 SLP317 T01001022 50005 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 15,
+     "windDirTrue": 70,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "08L",
+     "headKt": 10,
+     "crossKt": 0,
+     "densityAltFt": 964
+    },
+    "truth": {
+     "windDirTrue": 70,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "08R",
+     "crossKt": -0.9,
+     "densityAltFt": -10
+    }
+   },
+   {
+    "n": 16,
+    "raw": "METAR KRAP 180952Z AUTO 09005KT 10SM CLR 03/02 A2961 RMK AO2 SLP024 T00330017",
+    "wrong": [
+     "bestRunway",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 16,
+     "windDirTrue": 90,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14",
+     "headKt": 4,
+     "crossKt": 3,
+     "densityAltFt": 3284
+    },
+    "truth": {
+     "windDirTrue": 90,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "05",
+     "crossKt": -4.2,
+     "densityAltFt": 2910
+    }
+   },
+   {
+    "n": 18,
+    "raw": "METAR KRAP 180452Z 18014KT 10SM CLR 08/04 A2965 RMK AO2 SLP040 T00830039",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 18,
+     "windDirTrue": 180,
+     "windKt": 14,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14",
+     "headKt": 13,
+     "crossKt": 5,
+     "densityAltFt": 3234
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 14,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14",
+     "crossKt": 7.4,
+     "densityAltFt": 3460
+    }
+   },
+   {
+    "n": 19,
+    "raw": "METAR KMCI 180753Z 17011KT 10SM BKN250 07/M01 A3023 RMK AO2 SLP235 T00671006 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 19,
+     "windDirTrue": 170,
+     "windKt": 11,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "19L",
+     "headKt": 11,
+     "crossKt": 1,
+     "densityAltFt": 970
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 11,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "19R",
+     "crossKt": -4.1,
+     "densityAltFt": -130
+    }
+   },
+   {
+    "n": 20,
+    "raw": "METAR KOKC 180352Z 15009KT 10SM FEW250 08/03 A3028 RMK AO2 SLP254 T00780033",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 20,
+     "windDirTrue": 150,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17L",
+     "headKt": 9,
+     "crossKt": 1,
+     "densityAltFt": 1243
+    },
+    "truth": {
+     "windDirTrue": 150,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "13",
+     "crossKt": -3.7,
+     "densityAltFt": 280
+    }
+   },
+   {
+    "n": 21,
+    "raw": "METAR KSMX 180351Z AUTO 00000KT 10SM CLR 11/07 A3015 RMK AO2 SLP215 T01110072",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 21,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "02",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 304
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "12",
+     "crossKt": 0,
+     "densityAltFt": -460
+    }
+   },
+   {
+    "n": 22,
+    "raw": "METAR KBOS 172254Z 24009G19KT 10SM FEW250 12/02 A3036 RMK AO2 SLP281 T01170017",
+    "wrong": [
+     "bestRunway",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 22,
+     "windDirTrue": 240,
+     "windKt": 9,
+     "gustKt": 19,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "22R",
+     "headKt": 8.7,
+     "crossKt": 2.3,
+     "densityAltFt": 105
+    },
+    "truth": {
+     "windDirTrue": 240,
+     "windKt": 9,
+     "gustKt": 19,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27",
+     "crossKt": 5.2,
+     "densityAltFt": -930
+    }
+   },
+   {
+    "n": 23,
+    "raw": "METAR KABQ 180052Z 18008KT 10SM SCT035 BKN090 11/07 A3007 RMK AO2 SLP158 MTN TOPS OBSC NE AND SE SHRA DSNT SW-NW T01060067",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 23,
+     "windDirTrue": 180,
+     "windKt": 8,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 9000,
+     "category": "VFR",
+     "bestRunway": "21",
+     "headKt": 7.5,
+     "crossKt": 2.7,
+     "densityAltFt": 5355
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 8,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 9000,
+     "category": "VFR",
+     "bestRunway": "21",
+     "crossKt": -5.2,
+     "densityAltFt": 5880
+    }
+   },
+   {
+    "n": 25,
+    "raw": "METAR KBHM 180553Z 08005KT 10SM CLR 11/M01 A3046 RMK AO2 SLP311 T01111011 10128 20100 401940050 50002",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 25,
+     "windDirTrue": 80,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "06",
+     "headKt": 4.8,
+     "crossKt": 1.3,
+     "densityAltFt": 475
+    },
+    "truth": {
+     "windDirTrue": 80,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "06",
+     "crossKt": 2,
+     "densityAltFt": -360
+    }
+   },
+   {
+    "n": 26,
+    "raw": "METAR KCMH 180951Z 00000KT 9SM CLR M01/M02 A3051 RMK AO2 SLP337 T10061017",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 26,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 9,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 705
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 9,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "crossKt": 0,
+     "densityAltFt": -1560
+    }
+   },
+   {
+    "n": 27,
+    "raw": "METAR KBJC 180855Z AUTO 28003KT 10SM CLR 09/M02 A2981 RMK AO2",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 27,
+     "windDirTrue": 280,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "headKt": 2.9,
+     "crossKt": 0.5,
+     "densityAltFt": 5673
+    },
+    "truth": {
+     "windDirTrue": 280,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30R",
+     "crossKt": -1.5,
+     "densityAltFt": 6310
+    }
+   },
+   {
+    "n": 28,
+    "raw": "METAR KDET 180853Z 23004KT 7SM CLR 05/02 A3047 RMK AO2 SLP322 T00500017 55002",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 28,
+     "windDirTrue": 230,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 7,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33",
+     "headKt": 3.1,
+     "crossKt": 2.5,
+     "densityAltFt": 578
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 7,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "crossKt": -4,
+     "densityAltFt": -1110
+    }
+   },
+   {
+    "n": 30,
+    "raw": "METAR KRAP 172152Z 18019G24KT 10SM CLR 19/02 A2966 RMK AO2 SLP038 T01940022 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 30,
+     "windDirTrue": 180,
+     "windKt": 19,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14",
+     "headKt": 17.8,
+     "crossKt": 6.5,
+     "densityAltFt": 3332
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 19,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14",
+     "crossKt": 10.1,
+     "densityAltFt": 4780
+    }
+   },
+   {
+    "n": 31,
+    "raw": "METAR KMCI 180353Z 17012KT 10SM CLR 08/M01 A3026 RMK AO2 SLP246 T00831006 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 31,
+     "windDirTrue": 170,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19L",
+     "headKt": 11.9,
+     "crossKt": 1,
+     "densityAltFt": 976
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19R",
+     "crossKt": -4.5,
+     "densityAltFt": 30
+    }
+   },
+   {
+    "n": 32,
+    "raw": "METAR KSLC 180054Z 01010KT 6SM -RA BR SCT007 SCT019 OVC029 03/02 A2981 RMK AO2 WSHFT 0037 SLP080 P0009 T00330022 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 32,
+     "windDirTrue": 10,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": 2900,
+     "category": "MVFR",
+     "bestRunway": "35",
+     "headKt": 9.8,
+     "crossKt": 1.7,
+     "densityAltFt": 4335
+    },
+    "truth": {
+     "windDirTrue": 10,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": 2900,
+     "category": "MVFR",
+     "bestRunway": "35",
+     "crossKt": 1.6,
+     "densityAltFt": 3960
+    }
+   },
+   {
+    "n": 33,
+    "raw": "METAR KHOU 180553Z 05007KT 10SM FEW048 14/07 A3024 RMK AO2 SLP245 T01440067 10183 20139 402110094 56006 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 33,
+     "windDirTrue": 50,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "04",
+     "headKt": 6.8,
+     "crossKt": 1.8,
+     "densityAltFt": 103
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "04",
+     "crossKt": 0.9,
+     "densityAltFt": -420
+    }
+   },
+   {
+    "n": 34,
+    "raw": "METAR KISP 172156Z 26004KT 10SM FEW250 11/01 A3043 RMK SLP306 T01060011",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 34,
+     "windDirTrue": 260,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "24",
+     "headKt": 3.9,
+     "crossKt": 0.7,
+     "densityAltFt": 125
+    },
+    "truth": {
+     "windDirTrue": 260,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "24",
+     "crossKt": 2.2,
+     "densityAltFt": -1060
+    }
+   },
+   {
+    "n": 35,
+    "raw": "METAR KVGT 172253Z 34014G19KT 10SM CLR 16/M06 A2995 RMK AO2 SLP150 T01611061",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 35,
+     "windDirTrue": 340,
+     "windKt": 14,
+     "gustKt": 19,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30R",
+     "headKt": 13.5,
+     "crossKt": 3.6,
+     "densityAltFt": 2178
+    },
+    "truth": {
+     "windDirTrue": 340,
+     "windKt": 14,
+     "gustKt": 19,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "crossKt": 6.1,
+     "densityAltFt": 2800
+    }
+   },
+   {
+    "n": 36,
+    "raw": "METAR KIAD 180552Z 00000KT 10SM CLR 00/M01 A3052 RMK AO2 SLP338 T00001011 10056 20000 58001",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 36,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "01C",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 153
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "01C",
+     "crossKt": 0,
+     "densityAltFt": -2180
+    }
+   },
+   {
+    "n": 37,
+    "raw": "METAR KBOS 180054Z 27012G18KT 10SM CLR 11/01 A3037 RMK AO2 SLP282 T01110011",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 37,
+     "windDirTrue": 270,
+     "windKt": 12,
+     "gustKt": 18,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27",
+     "headKt": 12,
+     "crossKt": 0,
+     "densityAltFt": 92
+    },
+    "truth": {
+     "windDirTrue": 270,
+     "windKt": 12,
+     "gustKt": 18,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27",
+     "crossKt": 3.1,
+     "densityAltFt": -1010
+    }
+   },
+   {
+    "n": 38,
+    "raw": "METAR KBTV 180554Z AUTO 10003KT 10SM CLR 01/00 A3037 RMK AO2 SLP288 T00110000 10094 20011 53000",
+    "wrong": [
+     "bestRunway",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 38,
+     "windDirTrue": 100,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "01",
+     "headKt": 2.9,
+     "crossKt": 0.5,
+     "densityAltFt": 388
+    },
+    "truth": {
+     "windDirTrue": 100,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "crossKt": 2.9,
+     "densityAltFt": -1820
+    }
+   },
+   {
+    "n": 39,
+    "raw": "METAR KMEM 172254Z 10005KT 10SM CLR 16/M01 A3038 RMK AO2 SLP289 T01561011 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 39,
+     "windDirTrue": 100,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "09",
+     "headKt": 5,
+     "crossKt": 0,
+     "densityAltFt": 245
+    },
+    "truth": {
+     "windDirTrue": 100,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "09",
+     "crossKt": 1,
+     "densityAltFt": -180
+    }
+   },
+   {
+    "n": 40,
+    "raw": "METAR KAPA 172253Z COR 21015G25KT 10SM FEW150 SCT220 18/M04 A2978 RMK AO2 PK WND 21027/2215 SLP054 T01781039",
+    "wrong": [
+     "bestRunway",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 40,
+     "windDirTrue": 210,
+     "windKt": 15,
+     "gustKt": 25,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "28",
+     "headKt": 14.1,
+     "crossKt": 5.1,
+     "densityAltFt": 6026
+    },
+    "truth": {
+     "windDirTrue": 210,
+     "windKt": 15,
+     "gustKt": 25,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17L",
+     "crossKt": -14.7,
+     "densityAltFt": 7800
+    }
+   },
+   {
+    "n": 41,
+    "raw": "METAR KMSP 180253Z 17013KT 10SM BKN250 11/00 A3015 RMK AO2 SLP214 T01060000 53002",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 41,
+     "windDirTrue": 170,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "17",
+     "headKt": 13,
+     "crossKt": 0,
+     "densityAltFt": 1057
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "17",
+     "crossKt": 0,
+     "densityAltFt": 220
+    }
+   },
+   {
+    "n": 42,
+    "raw": "METAR KTOA 180655Z AUTO 23003KT 10SM CLR 12/05 A3011 RMK AO2 T01250046 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 42,
+     "windDirTrue": 230,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "29L",
+     "headKt": 2.3,
+     "crossKt": 1.9,
+     "densityAltFt": 1058
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "29R",
+     "crossKt": -2.9,
+     "densityAltFt": -410
+    }
+   },
+   {
+    "n": 43,
+    "raw": "METAR KSQL 172305Z 00000KT 10SM SCT040 BKN049 BKN070 15/07 A3011",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 43,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 4900,
+     "category": "VFR",
+     "bestRunway": "12",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 103
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 4900,
+     "category": "VFR",
+     "bestRunway": "12",
+     "crossKt": 0,
+     "densityAltFt": -230
+    }
+   },
+   {
+    "n": 44,
+    "raw": "METAR KHIO 180353Z 00000KT 10SM CLR 04/04 A2982 RMK AO2 SLP098 T00390039 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 44,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "02",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 173
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "13R",
+     "crossKt": 0,
+     "densityAltFt": -960
+    }
+   },
+   {
+    "n": 45,
+    "raw": "METAR KLBB 180753Z 17007KT 10SM CLR 06/06 A3019 RMK AO2 SLP211 T00610056",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 45,
+     "windDirTrue": 170,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17R",
+     "headKt": 7,
+     "crossKt": 0,
+     "densityAltFt": 3194
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17R",
+     "crossKt": -0.7,
+     "densityAltFt": 2650
+    }
+   },
+   {
+    "n": 46,
+    "raw": "METAR KSTL 180551Z COR 18003KT 10SM CLR 05/01 A3040 RMK AO2 SLP297 T00500006 10111 20050 401560006 55002 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 46,
+     "windDirTrue": 180,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "12R",
+     "headKt": 2.8,
+     "crossKt": 1.1,
+     "densityAltFt": 435
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "12R",
+     "crossKt": 2.6,
+     "densityAltFt": -1130
+    }
+   },
+   {
+    "n": 47,
+    "raw": "METAR KISP 180256Z 23003KT 10SM CLR 08/02 A3044 RMK SLP307 T00780017 58006",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 47,
+     "windDirTrue": 230,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "24",
+     "headKt": 2.9,
+     "crossKt": 0.8,
+     "densityAltFt": -103
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "24",
+     "crossKt": 0.2,
+     "densityAltFt": -1410
+    }
+   },
+   {
+    "n": 49,
+    "raw": "METAR KSNA 180453Z 23006KT 10SM CLR 16/04 A3011 RMK AO2 SLP195 T01560044",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 49,
+     "windDirTrue": 230,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "20L",
+     "headKt": 5.6,
+     "crossKt": 2.1,
+     "densityAltFt": 256
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "20R",
+     "crossKt": 1.9,
+     "densityAltFt": -110
+    }
+   },
+   {
+    "n": 50,
+    "raw": "METAR KPVD 180151Z 27006KT 10SM CLR 09/01 A3040 RMK AO2 SLP294 T00940011",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 50,
+     "windDirTrue": 270,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "23",
+     "headKt": 5.8,
+     "crossKt": 1.6,
+     "densityAltFt": -103
+    },
+    "truth": {
+     "windDirTrue": 270,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "23",
+     "crossKt": 4.9,
+     "densityAltFt": -1210
+    }
+   },
+   {
+    "n": 52,
+    "raw": "METAR KSLC 180354Z VRB03KT 2SM -SN BR FEW004 BKN011 OVC019 01/M01 A3000 RMK AO2 SFC VIS 5 SLP152 P0006 T00061006 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 52,
+     "windDirTrue": null,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 2,
+     "ceilingFt": 1100,
+     "category": "IFR",
+     "bestRunway": "16R",
+     "headKt": 2.8,
+     "crossKt": 1,
+     "densityAltFt": 4219
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 2,
+     "ceilingFt": 1100,
+     "category": "IFR",
+     "bestRunway": "16L",
+     "crossKt": 0,
+     "densityAltFt": 3400
+    }
+   },
+   {
+    "n": 53,
+    "raw": "METAR KMIA 180153Z 10014G25KT 10SM SCT027 BKN042 OVC055 24/20 A3012 RMK AO2 SLP198 T02440200 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 53,
+     "windDirTrue": 100,
+     "windKt": 14,
+     "gustKt": 25,
+     "visSm": 10,
+     "ceilingFt": 4200,
+     "category": "VFR",
+     "bestRunway": "09",
+     "headKt": 13.8,
+     "crossKt": 2.4,
+     "densityAltFt": 4219
+    },
+    "truth": {
+     "windDirTrue": 100,
+     "windKt": 14,
+     "gustKt": 25,
+     "visSm": 10,
+     "ceilingFt": 4200,
+     "category": "VFR",
+     "bestRunway": "09",
+     "crossKt": 3.6,
+     "densityAltFt": 880
+    }
+   },
+   {
+    "n": 54,
+    "raw": "METAR KTPA 180953Z 05008G17KT 10SM OVC095 19/17 A3014 RMK AO2 SLP206 T01890167 $",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 54,
+     "windDirTrue": 50,
+     "windKt": 8,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": 9500,
+     "category": "VFR",
+     "bestRunway": "01R",
+     "headKt": 7.5,
+     "crossKt": 2.7,
+     "densityAltFt": 103
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 8,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": 9500,
+     "category": "VFR",
+     "bestRunway": "01L",
+     "crossKt": 5.7,
+     "densityAltFt": 200
+    }
+   },
+   {
+    "n": 55,
+    "raw": "METAR KSTS 180853Z AUTO 14013G21KT 8SM RA BKN036 OVC043 11/09 A2993 RMK AO2 SLP130 P0007 60007 T01110094 58031",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 55,
+     "windDirTrue": 140,
+     "windKt": 13,
+     "gustKt": 21,
+     "visSm": 8,
+     "ceilingFt": 3600,
+     "category": "VFR",
+     "bestRunway": "14",
+     "headKt": 13,
+     "crossKt": 0,
+     "densityAltFt": 153
+    },
+    "truth": {
+     "windDirTrue": 140,
+     "windKt": 13,
+     "gustKt": 21,
+     "visSm": 8,
+     "ceilingFt": 3600,
+     "category": "VFR",
+     "bestRunway": "14",
+     "crossKt": -3.6,
+     "densityAltFt": -340
+    }
+   },
+   {
+    "n": 56,
+    "raw": "METAR KFAR 180053Z 17012KT 10SM OVC026 11/05 A2995 RMK AO2 SLP147 T01060050",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 56,
+     "windDirTrue": 170,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2600,
+     "category": "MVFR",
+     "bestRunway": "18",
+     "headKt": 12,
+     "crossKt": 0,
+     "densityAltFt": 906
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2600,
+     "category": "MVFR",
+     "bestRunway": "18",
+     "crossKt": -2.9,
+     "densityAltFt": 560
+    }
+   },
+   {
+    "n": 57,
+    "raw": "METAR KDEN 180753Z 21019G23KT 10SM FEW220 09/M02 A2976 RMK AO2 SLP032 T00941017",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 57,
+     "windDirTrue": 210,
+     "windKt": 19,
+     "gustKt": 23,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17R",
+     "headKt": 18.8,
+     "crossKt": 2.6,
+     "densityAltFt": 5433
+    },
+    "truth": {
+     "windDirTrue": 210,
+     "windKt": 19,
+     "gustKt": 23,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17L",
+     "crossKt": 10.1,
+     "densityAltFt": 6260
+    }
+   },
+   {
+    "n": 58,
+    "raw": "METAR KSTL 172051Z COR 12008G17KT 10SM FEW250 16/02 A3042 RMK AO2 SLP305 T01560017 56023",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 58,
+     "windDirTrue": 120,
+     "windKt": 8,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "12R",
+     "headKt": 8,
+     "crossKt": 0,
+     "densityAltFt": 535
+    },
+    "truth": {
+     "windDirTrue": 120,
+     "windKt": 8,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "12R",
+     "crossKt": 0.1,
+     "densityAltFt": 120
+    }
+   },
+   {
+    "n": 59,
+    "raw": "METAR KFLG 172157Z 25015G21KT 6SM -RA BR BKN014 BKN025 OVC039 06/03 A3000 RMK AO2 PK WND 23027/2109 RAB21E32B50 SLP112 P0001 T00560033 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 59,
+     "windDirTrue": 250,
+     "windKt": 15,
+     "gustKt": 21,
+     "visSm": 6,
+     "ceilingFt": 1400,
+     "category": "MVFR",
+     "bestRunway": "21",
+     "headKt": 14.1,
+     "crossKt": 5.1,
+     "densityAltFt": 7001
+    },
+    "truth": {
+     "windDirTrue": 250,
+     "windKt": 15,
+     "gustKt": 21,
+     "visSm": 6,
+     "ceilingFt": 1400,
+     "category": "MVFR",
+     "bestRunway": "21",
+     "crossKt": 7.5,
+     "densityAltFt": 7450
+    }
+   },
+   {
+    "n": 60,
+    "raw": "METAR KLBB 180353Z 16009KT 10SM OVC023 09/07 A3021 RMK AO2 SLP220 BINOVC T00940072",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 60,
+     "windDirTrue": 160,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2300,
+     "category": "MVFR",
+     "bestRunway": "17R",
+     "headKt": 9,
+     "crossKt": 0,
+     "densityAltFt": 3268
+    },
+    "truth": {
+     "windDirTrue": 160,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2300,
+     "category": "MVFR",
+     "bestRunway": "17R",
+     "crossKt": -2.5,
+     "densityAltFt": 3020
+    }
+   },
+   {
+    "n": 61,
+    "raw": "METAR KJAX 180156Z 04013KT 6SM -RA BR BKN008 OVC030 17/16 A3033 RMK AO2 PK WND 04027/0111 SLP271 P0003 T01670156 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 61,
+     "windDirTrue": 40,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": 800,
+     "category": "IFR",
+     "bestRunway": "08",
+     "headKt": 12.9,
+     "crossKt": 0,
+     "densityAltFt": 155
+    },
+    "truth": {
+     "windDirTrue": 40,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": 800,
+     "category": "IFR",
+     "bestRunway": "08",
+     "crossKt": -7.3,
+     "densityAltFt": -270
+    }
+   },
+   {
+    "n": 64,
+    "raw": "METAR KACV 181053Z AUTO 08008G15KT 9SM -RA OVC040 07/06 A2973 RMK AO2 SLP075 P0020 T00670056",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 64,
+     "windDirTrue": 80,
+     "windKt": 8,
+     "gustKt": 15,
+     "visSm": 9,
+     "ceilingFt": 4000,
+     "category": "VFR",
+     "bestRunway": "01",
+     "headKt": 6.1,
+     "crossKt": 5.1,
+     "densityAltFt": 103
+    },
+    "truth": {
+     "windDirTrue": 80,
+     "windKt": 8,
+     "gustKt": 15,
+     "visSm": 9,
+     "ceilingFt": 4000,
+     "category": "VFR",
+     "bestRunway": "01",
+     "crossKt": 6.4,
+     "densityAltFt": -500
+    }
+   },
+   {
+    "n": 65,
+    "raw": "METAR KMSP 171953Z 19012G20KT 10SM SCT032 BKN250 13/05 A3018 RMK AO2 PK WND 20027/1933 SLP224 T01280050",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 65,
+     "windDirTrue": 190,
+     "windKt": 12,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "17",
+     "headKt": 11.8,
+     "crossKt": 2.1,
+     "densityAltFt": 1037
+    },
+    "truth": {
+     "windDirTrue": 190,
+     "windKt": 12,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "17",
+     "crossKt": 4.1,
+     "densityAltFt": 450
+    }
+   },
+   {
+    "n": 66,
+    "raw": "METAR KMYF 172053Z 29009G19KT 10SM SCT042 19/09 A3003 RMK AO2 SLP166 T01940094 58012",
+    "wrong": [
+     "ceilingFt"
+    ],
+    "ai": {
+     "n": 66,
+     "windDirTrue": 290,
+     "windKt": 9,
+     "gustKt": 19,
+     "visSm": 10,
+     "ceilingFt": 4200,
+     "category": "VFR",
+     "bestRunway": "28R",
+     "headKt": 8.7,
+     "crossKt": 2.3,
+     "densityAltFt": 1040
+    },
+    "truth": {
+     "windDirTrue": 290,
+     "windKt": 9,
+     "gustKt": 19,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "28R",
+     "crossKt": -0.6,
+     "densityAltFt": 910
+    }
+   },
+   {
+    "n": 67,
+    "raw": "METAR KADS 181055Z AUTO VRB03KT 10SM CLR 10/03 A3028 RMK AO2",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 67,
+     "windDirTrue": null,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "16",
+     "headKt": 3,
+     "crossKt": 0,
+     "densityAltFt": 500
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "16",
+     "crossKt": 0,
+     "densityAltFt": -240
+    }
+   },
+   {
+    "n": 68,
+    "raw": "METAR KPDX 172253Z 13007KT 080V150 10SM BKN030 BKN041 BKN060 12/06 A2991 RMK AO2 SLP129 T01220056 $",
+    "wrong": [
+     "category",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 68,
+     "windDirTrue": 130,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "headKt": 6.6,
+     "crossKt": 2.4,
+     "densityAltFt": 23
+    },
+    "truth": {
+     "windDirTrue": 130,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "MVFR",
+     "bestRunway": "10R",
+     "crossKt": 1.7,
+     "densityAltFt": -300
+    }
+   },
+   {
+    "n": 69,
+    "raw": "METAR KFLG 180357Z AUTO 23008KT 10SM FEW008 BKN016 OVC028 02/01 A3012 RMK AO2 SLP166 T00220006 $",
+    "wrong": [
+     "ceilingFt",
+     "category"
+    ],
+    "ai": {
+     "n": 69,
+     "windDirTrue": 230,
+     "windKt": 8,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 800,
+     "category": "IFR",
+     "bestRunway": "21",
+     "headKt": 7.5,
+     "crossKt": 2.8,
+     "densityAltFt": 6981
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 8,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 1600,
+     "category": "MVFR",
+     "bestRunway": "21",
+     "crossKt": 1.4,
+     "densityAltFt": 6900
+    }
+   },
+   {
+    "n": 70,
+    "raw": "METAR KBUR 172053Z VRB05KT 10SM CLR 19/M03 A3002 RMK AO2 SLP157 T01891028 58015 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 70,
+     "windDirTrue": null,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "08",
+     "headKt": 5,
+     "crossKt": 0,
+     "densityAltFt": 725
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "crossKt": 0,
+     "densityAltFt": 1240
+    }
+   },
+   {
+    "n": 71,
+    "raw": "METAR KTUS 180053Z 29008G14KT 10SM SCT090 18/09 A3005 RMK AO2 SLP150 T01830094",
+    "wrong": [
+     "ceilingFt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 71,
+     "windDirTrue": 290,
+     "windKt": 8,
+     "gustKt": 14,
+     "visSm": 10,
+     "ceilingFt": 9000,
+     "category": "VFR",
+     "bestRunway": "30",
+     "headKt": 7.9,
+     "crossKt": 1.4,
+     "densityAltFt": 2546
+    },
+    "truth": {
+     "windDirTrue": 290,
+     "windKt": 8,
+     "gustKt": 14,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30",
+     "crossKt": -2.6,
+     "densityAltFt": 3390
+    }
+   },
+   {
+    "n": 73,
+    "raw": "METAR KMSY 180453Z 06008G16KT 10SM OVC019 15/12 A3029 RMK AO2 SLP261 T01500117",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 73,
+     "windDirTrue": 60,
+     "windKt": 8,
+     "gustKt": 16,
+     "visSm": 10,
+     "ceilingFt": 1900,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "headKt": 7.5,
+     "crossKt": 2.8,
+     "densityAltFt": 0
+    },
+    "truth": {
+     "windDirTrue": 60,
+     "windKt": 8,
+     "gustKt": 16,
+     "visSm": 10,
+     "ceilingFt": 1900,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "crossKt": 5.2,
+     "densityAltFt": -460
+    }
+   },
+   {
+    "n": 74,
+    "raw": "METAR KOMA 180752Z 17020G28KT 10SM BKN250 09/00 A3009 RMK AO2 PK WND 17031/0737 SLP189 T00890000",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 74,
+     "windDirTrue": 170,
+     "windKt": 20,
+     "gustKt": 28,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "18",
+     "headKt": 19.9,
+     "crossKt": 1.7,
+     "densityAltFt": 981
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 20,
+     "gustKt": 28,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "18",
+     "crossKt": -4.2,
+     "densityAltFt": 270
+    }
+   },
+   {
+    "n": 75,
+    "raw": "METAR KPVU 172356Z 23021G29KT 10SM BKN060 BKN075 OVC120 08/01 A2978 RMK AO2 PK WND 22029/2355 SLP071 6//// T00780011 10100 20061 53007 PNO $",
+    "wrong": [
+     "bestRunway",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 75,
+     "windDirTrue": 230,
+     "windKt": 21,
+     "gustKt": 29,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "21",
+     "headKt": 19.7,
+     "crossKt": 7.5,
+     "densityAltFt": 4595
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 21,
+     "gustKt": 29,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "18",
+     "crossKt": 12.9,
+     "densityAltFt": 4880
+    }
+   },
+   {
+    "n": 76,
+    "raw": "METAR KOAK 181053Z 14021G31KT 10SM FEW022 BKN046 OVC090 13/08 A2995 RMK AO2 PK WND 14034/1036 SLP143 T01280083",
+    "wrong": [
+     "bestRunway",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 76,
+     "windDirTrue": 140,
+     "windKt": 21,
+     "gustKt": 31,
+     "visSm": 10,
+     "ceilingFt": 4600,
+     "category": "VFR",
+     "bestRunway": "15",
+     "headKt": 20.3,
+     "crossKt": 5.4,
+     "densityAltFt": 10
+    },
+    "truth": {
+     "windDirTrue": 140,
+     "windKt": 21,
+     "gustKt": 31,
+     "visSm": 10,
+     "ceilingFt": 4600,
+     "category": "VFR",
+     "bestRunway": "12",
+     "crossKt": -8.5,
+     "densityAltFt": -290
+    }
+   },
+   {
+    "n": 78,
+    "raw": "METAR KMIA 180453Z 09017G24KT 10SM SCT030 BKN045 BKN070 OVC150 25/19 A3009 RMK AO2 PK WND 09027/0354 RAB03E13 SLP188 OCNL LTGICCG DSNT NE CB DSNT NE MOV N P0000 T02500194 402720217 $",
+    "wrong": [
+     "ceilingFt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 78,
+     "windDirTrue": 90,
+     "windKt": 17,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "VFR",
+     "bestRunway": "09",
+     "headKt": 17,
+     "crossKt": 0,
+     "densityAltFt": 3
+    },
+    "truth": {
+     "windDirTrue": 90,
+     "windKt": 17,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": 4500,
+     "category": "VFR",
+     "bestRunway": "09",
+     "crossKt": 1.5,
+     "densityAltFt": 990
+    }
+   },
+   {
+    "n": 79,
+    "raw": "METAR KMCO 172353Z 04010KT 10SM -RA FEW042 BKN060 OVC090 18/17 A3025",
+    "wrong": [
+     "bestRunway",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 79,
+     "windDirTrue": 40,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "07",
+     "headKt": 9.8,
+     "crossKt": 1.7,
+     "densityAltFt": 89
+    },
+    "truth": {
+     "windDirTrue": 40,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "36R",
+     "crossKt": 7.2,
+     "densityAltFt": 60
+    }
+   },
+   {
+    "n": 80,
+    "raw": "METAR PHNL 170053Z 05017G24KT 10SM FEW025 FEW040 SCT120 29/19 A3007 RMK AO2 PK WND 05033/0038 SLP182 T02890189 $",
+    "wrong": [
+     "ceilingFt",
+     "category",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 80,
+     "windDirTrue": 50,
+     "windKt": 17,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": 2500,
+     "category": "MVFR",
+     "bestRunway": "04L",
+     "headKt": 16.9,
+     "crossKt": 1.5,
+     "densityAltFt": 7
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 17,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "04R",
+     "crossKt": -0.3,
+     "densityAltFt": 1490
+    }
+   },
+   {
+    "n": 81,
+    "raw": "METAR KFXE 180853Z 07008G19KT 7SM -RA FEW050 BKN075 OVC090 21/18 A3007 RMK AO2 SLP183 P0011 60050 T02060183 58011",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 81,
+     "windDirTrue": 70,
+     "windKt": 8,
+     "gustKt": 19,
+     "visSm": 7,
+     "ceilingFt": 7500,
+     "category": "VFR",
+     "bestRunway": "09",
+     "headKt": 7.8,
+     "crossKt": 1.4,
+     "densityAltFt": 10
+    },
+    "truth": {
+     "windDirTrue": 70,
+     "windKt": 8,
+     "gustKt": 19,
+     "visSm": 7,
+     "ceilingFt": 7500,
+     "category": "VFR",
+     "bestRunway": "09",
+     "crossKt": -1.8,
+     "densityAltFt": 500
+    }
+   },
+   {
+    "n": 83,
+    "raw": "METAR PHNL 180453Z 05012G20KT 10SM FEW020 SCT045 BKN060 25/20 A3009 RMK AO2 SLP190 T02500200 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 83,
+     "windDirTrue": 50,
+     "windKt": 12,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "04L",
+     "headKt": 11.9,
+     "crossKt": 1,
+     "densityAltFt": 7
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 12,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "04R",
+     "crossKt": -0.2,
+     "densityAltFt": 1000
+    }
+   },
+   {
+    "n": 85,
+    "raw": "METAR KJAX 172256Z 04014G25KT 5SM -RA BR SCT007 BKN019 OVC041 17/16 A3031 RMK AO2 SLP263 P0006 T01720161 $",
+    "wrong": [
+     "ceilingFt",
+     "category",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 85,
+     "windDirTrue": 40,
+     "windKt": 14,
+     "gustKt": 25,
+     "visSm": 5,
+     "ceilingFt": 700,
+     "category": "IFR",
+     "bestRunway": "08",
+     "headKt": 13.8,
+     "crossKt": 2.4,
+     "densityAltFt": 26
+    },
+    "truth": {
+     "windDirTrue": 40,
+     "windKt": 14,
+     "gustKt": 25,
+     "visSm": 5,
+     "ceilingFt": 1900,
+     "category": "MVFR",
+     "bestRunway": "08",
+     "crossKt": -7.8,
+     "densityAltFt": -190
+    }
+   },
+   {
+    "n": 86,
+    "raw": "METAR KVGT 172053Z 34015G24KT 10SM CLR 16/M04 A2990 RMK AO2 PK WND 33026/2041 SLP135 T01611039 50011",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 86,
+     "windDirTrue": 340,
+     "windKt": 15,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "headKt": 14.9,
+     "crossKt": 1.3,
+     "densityAltFt": 2178
+    },
+    "truth": {
+     "windDirTrue": 340,
+     "windKt": 15,
+     "gustKt": 24,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "crossKt": 6.6,
+     "densityAltFt": 2860
+    }
+   },
+   {
+    "n": 87,
+    "raw": "METAR KAMA 180953Z 19018KT 10SM OVC016 08/06 A3015 RMK AO2 PK WND 19027/0949 SLP195 T00830061",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 87,
+     "windDirTrue": 190,
+     "windKt": 18,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 1600,
+     "category": "MVFR",
+     "bestRunway": "22",
+     "headKt": 17.9,
+     "crossKt": 1.6,
+     "densityAltFt": 3615
+    },
+    "truth": {
+     "windDirTrue": 190,
+     "windKt": 18,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 1600,
+     "category": "MVFR",
+     "bestRunway": "22",
+     "crossKt": -11.1,
+     "densityAltFt": 3390
+    }
+   },
+   {
+    "n": 88,
+    "raw": "METAR KMSY 180653Z 05008G20KT 10SM OVC022 15/11 A3027 RMK AO2 SLP252 T01500111",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 88,
+     "windDirTrue": 50,
+     "windKt": 8,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": 2200,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "headKt": 7.5,
+     "crossKt": 2.8,
+     "densityAltFt": 0
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 8,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": 2200,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "crossKt": 4.1,
+     "densityAltFt": -430
+    }
+   },
+   {
+    "n": 89,
+    "raw": "METAR KCRQ 172253Z 28008G15KT 250V310 10SM CLR 19/07 A3004 RMK AO2 SLP170 T01940072",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 89,
+     "windDirTrue": 280,
+     "windKt": 8,
+     "gustKt": 15,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "24",
+     "headKt": 7.7,
+     "crossKt": 2.1,
+     "densityAltFt": 315
+    },
+    "truth": {
+     "windDirTrue": 280,
+     "windKt": 8,
+     "gustKt": 15,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "24",
+     "crossKt": 3.5,
+     "densityAltFt": 770
+    }
+   },
+   {
+    "n": 91,
+    "raw": "METAR KMSY 180053Z 04009KT 10SM BKN025 16/12 A3028 RMK AO2 SLP255 T01610122",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 91,
+     "windDirTrue": 40,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2500,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "headKt": 8.5,
+     "crossKt": 3.1,
+     "densityAltFt": 0
+    },
+    "truth": {
+     "windDirTrue": 40,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2500,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "crossKt": 3.2,
+     "densityAltFt": -310
+    }
+   },
+   {
+    "n": 92,
+    "raw": "METAR KMCO 180553Z 05009KT 8SM -RA FEW012 BKN045 OVC075 18/18 A3020",
+    "wrong": [
+     "bestRunway",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 92,
+     "windDirTrue": 50,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 8,
+     "ceilingFt": 4500,
+     "category": "VFR",
+     "bestRunway": "08",
+     "headKt": 8.9,
+     "crossKt": 1.6,
+     "densityAltFt": 89
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 8,
+     "ceilingFt": 4500,
+     "category": "VFR",
+     "bestRunway": "36R",
+     "crossKt": 7.5,
+     "densityAltFt": 120
+    }
+   },
+   {
+    "n": 95,
+    "raw": "METAR KJAX 180356Z 05013G22KT 6SM RA BR BKN007 BKN027 OVC045 17/16 A3032 RMK AO2 SLP269 P0005 T01720161 $",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 95,
+     "windDirTrue": 50,
+     "windKt": 13,
+     "gustKt": 22,
+     "visSm": 6,
+     "ceilingFt": 700,
+     "category": "IFR",
+     "bestRunway": "08",
+     "headKt": 12.8,
+     "crossKt": 2.3,
+     "densityAltFt": 26
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 13,
+     "gustKt": 22,
+     "visSm": 6,
+     "ceilingFt": 700,
+     "category": "IFR",
+     "bestRunway": "08",
+     "crossKt": -5.3,
+     "densityAltFt": -200
+    }
+   },
+   {
+    "n": 96,
+    "raw": "METAR KEUG 181054Z AUTO 19004KT 10SM -RA OVC060 08/04 A2968 RMK AO2 RAB48 SLP051 P0000 T00780044 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 96,
+     "windDirTrue": 190,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "16R",
+     "headKt": 3.9,
+     "crossKt": 0.7,
+     "densityAltFt": 358
+    },
+    "truth": {
+     "windDirTrue": 190,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "16R",
+     "crossKt": 1,
+     "densityAltFt": -120
+    }
+   },
+   {
+    "n": 97,
+    "raw": "METAR KFAR 172053Z 15013G18KT 10SM OVC027 12/06 A2994 RMK AO2 SLP144 T01170056 58017",
+    "wrong": [
+     "bestRunway",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 97,
+     "windDirTrue": 150,
+     "windKt": 13,
+     "gustKt": 18,
+     "visSm": 10,
+     "ceilingFt": 2700,
+     "category": "MVFR",
+     "bestRunway": "18",
+     "headKt": 12.8,
+     "crossKt": 2.3,
+     "densityAltFt": 906
+    },
+    "truth": {
+     "windDirTrue": 150,
+     "windKt": 13,
+     "gustKt": 18,
+     "visSm": 10,
+     "ceilingFt": 2700,
+     "category": "MVFR",
+     "bestRunway": "13",
+     "crossKt": -7.3,
+     "densityAltFt": 700
+    }
+   },
+   {
+    "n": 99,
+    "raw": "METAR PHNL 172153Z 06015G25KT 10SM FEW025 SCT048 SCT055 28/21 A3009 RMK AO2 SLP189 T02830206 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 99,
+     "windDirTrue": 60,
+     "windKt": 15,
+     "gustKt": 25,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "04L",
+     "headKt": 14.5,
+     "crossKt": 3.9,
+     "densityAltFt": 7
+    },
+    "truth": {
+     "windDirTrue": 60,
+     "windKt": 15,
+     "gustKt": 25,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "04R",
+     "crossKt": 2.3,
+     "densityAltFt": 1390
+    }
+   },
+   {
+    "n": 101,
+    "raw": "METAR PHNL 162353Z 06016G23KT 10SM FEW024 SCT041 29/19 A3008 RMK AO2 SLP184 T02940194 10300 20261 58026 $",
+    "wrong": [
+     "ceilingFt",
+     "category",
+     "bestRunway",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 101,
+     "windDirTrue": 60,
+     "windKt": 16,
+     "gustKt": 23,
+     "visSm": 10,
+     "ceilingFt": 2400,
+     "category": "MVFR",
+     "bestRunway": "08R",
+     "headKt": 13,
+     "crossKt": 9.4,
+     "densityAltFt": 1000
+    },
+    "truth": {
+     "windDirTrue": 60,
+     "windKt": 16,
+     "gustKt": 23,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "04R",
+     "crossKt": -8.2,
+     "densityAltFt": 1540
+    }
+   },
+   {
+    "n": 102,
+    "raw": "METAR KBOS 180154Z 27009G20KT 10SM CLR 10/02 A3037 RMK AO2 SLP283 T01000017",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 102,
+     "windDirTrue": 270,
+     "windKt": 9,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27",
+     "headKt": 9,
+     "crossKt": 0,
+     "densityAltFt": 13
+    },
+    "truth": {
+     "windDirTrue": 270,
+     "windKt": 9,
+     "gustKt": 20,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27",
+     "crossKt": 2.3,
+     "densityAltFt": -1140
+    }
+   },
+   {
+    "n": 104,
+    "raw": "METAR KPVD 180251Z VRB04KT 10SM CLR 08/01 A3039 RMK AO2 SLP292 T00830011 58001",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 104,
+     "windDirTrue": null,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "23",
+     "headKt": 4,
+     "crossKt": 0,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "05",
+     "crossKt": 0,
+     "densityAltFt": -1330
+    }
+   },
+   {
+    "n": 105,
+    "raw": "METAR KSTS 180953Z AUTO 15017G26KT 6SM -RA BR OVC021 11/10 A2991 RMK AO2 PK WND 15026/0943 SLP121 P0015 T01110100",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 105,
+     "windDirTrue": 150,
+     "windKt": 17,
+     "gustKt": 26,
+     "visSm": 6,
+     "ceilingFt": 2100,
+     "category": "MVFR",
+     "bestRunway": "14",
+     "headKt": 16.9,
+     "crossKt": 1.8,
+     "densityAltFt": 115
+    },
+    "truth": {
+     "windDirTrue": 150,
+     "windKt": 17,
+     "gustKt": 26,
+     "visSm": 6,
+     "ceilingFt": 2100,
+     "category": "MVFR",
+     "bestRunway": "14",
+     "crossKt": -1.8,
+     "densityAltFt": -310
+    }
+   },
+   {
+    "n": 106,
+    "raw": "METAR KMIA 172253Z 08011G20KT 6SM RA BR SCT021 BKN040 OVC250 24/22 A3009 RMK AO2 PK WND 09027/2236 RAB13 SLP191 P0002 T02390217 $",
+    "wrong": [
+     "ceilingFt",
+     "category",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 106,
+     "windDirTrue": 80,
+     "windKt": 11,
+     "gustKt": 20,
+     "visSm": 6,
+     "ceilingFt": 2100,
+     "category": "MVFR",
+     "bestRunway": "09",
+     "headKt": 10.9,
+     "crossKt": 1.9,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 80,
+     "windKt": 11,
+     "gustKt": 20,
+     "visSm": 6,
+     "ceilingFt": 4000,
+     "category": "VFR",
+     "bestRunway": "09",
+     "crossKt": -1,
+     "densityAltFt": 860
+    }
+   },
+   {
+    "n": 108,
+    "raw": "METAR KFXE 180053Z 11017KT 2SM +RA BR SCT019 OVC026 23/21 A3012 RMK AO2 LTG DSNT SE AND S SLP201 P0129 T02280206",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 108,
+     "windDirTrue": 110,
+     "windKt": 17,
+     "gustKt": null,
+     "visSm": 2,
+     "ceilingFt": 2600,
+     "category": "IFR",
+     "bestRunway": "13",
+     "headKt": 16.9,
+     "crossKt": 1.8,
+     "densityAltFt": 250
+    },
+    "truth": {
+     "windDirTrue": 110,
+     "windKt": 17,
+     "gustKt": null,
+     "visSm": 2,
+     "ceilingFt": 2600,
+     "category": "IFR",
+     "bestRunway": "13",
+     "crossKt": -3.8,
+     "densityAltFt": 700
+    }
+   },
+   {
+    "n": 109,
+    "raw": "METAR KBOI 172253Z AUTO 32011KT 10SM -RA FEW025 BKN034 OVC070 06/01 A2988 RMK AO2 SLP125 P0000 T00560006",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 109,
+     "windDirTrue": 320,
+     "windKt": 11,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3400,
+     "category": "VFR",
+     "bestRunway": "28L",
+     "headKt": 10.3,
+     "crossKt": 3.8,
+     "densityAltFt": 2860
+    },
+    "truth": {
+     "windDirTrue": 320,
+     "windKt": 11,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3400,
+     "category": "VFR",
+     "bestRunway": "28R",
+     "crossKt": 5,
+     "densityAltFt": 2420
+    }
+   },
+   {
+    "n": 110,
+    "raw": "METAR KBUR 172153Z 31009G15KT 10SM CLR 19/M04 A3003 RMK AO2 SLP159 T01941039 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 110,
+     "windDirTrue": 310,
+     "windKt": 9,
+     "gustKt": 15,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33",
+     "headKt": 8.5,
+     "crossKt": 3.1,
+     "densityAltFt": 725
+    },
+    "truth": {
+     "windDirTrue": 310,
+     "windKt": 9,
+     "gustKt": 15,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33",
+     "crossKt": -4.8,
+     "densityAltFt": 1290
+    }
+   },
+   {
+    "n": 111,
+    "raw": "METAR KTUS 172353Z 29011G17KT 10SM SCT090 21/09 A3002 RMK AO2 SLP138 60000 T02060094 10233 20200 53012",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 111,
+     "windDirTrue": 290,
+     "windKt": 11,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30",
+     "headKt": 10.8,
+     "crossKt": 2.3,
+     "densityAltFt": 2546
+    },
+    "truth": {
+     "windDirTrue": 290,
+     "windKt": 11,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30",
+     "crossKt": -3.6,
+     "densityAltFt": 3710
+    }
+   },
+   {
+    "n": 112,
+    "raw": "METAR KSTS 180753Z AUTO 14013G22KT 10SM -RA FEW038 OVC055 12/09 A2997 RMK AO2 RAB43 SLP143 P0000 T01220089 401560006",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 112,
+     "windDirTrue": 140,
+     "windKt": 13,
+     "gustKt": 22,
+     "visSm": 10,
+     "ceilingFt": 5500,
+     "category": "VFR",
+     "bestRunway": "14",
+     "headKt": 12.9,
+     "crossKt": 1.4,
+     "densityAltFt": 115
+    },
+    "truth": {
+     "windDirTrue": 140,
+     "windKt": 13,
+     "gustKt": 22,
+     "visSm": 10,
+     "ceilingFt": 5500,
+     "category": "VFR",
+     "bestRunway": "14",
+     "crossKt": -3.6,
+     "densityAltFt": -260
+    }
+   },
+   {
+    "n": 113,
+    "raw": "METAR KOMA 180152Z 17019G28KT 10SM BKN250 12/01 A3014 RMK AO2 PK WND 17030/0137 SLP209 T01170006",
+    "wrong": [
+     "ceilingFt",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 113,
+     "windDirTrue": 170,
+     "windKt": 19,
+     "gustKt": 28,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "18",
+     "headKt": 18.9,
+     "crossKt": 1.7,
+     "densityAltFt": 1000
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 19,
+     "gustKt": 28,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "18",
+     "crossKt": -4,
+     "densityAltFt": 550
+    }
+   },
+   {
+    "n": 114,
+    "raw": "METAR KSDF 180956Z VRB04KT 10SM CLR 06/02 A3048 RMK AO2 SLP322 T00560022 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 114,
+     "windDirTrue": null,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "35L",
+     "headKt": 4,
+     "crossKt": 0,
+     "densityAltFt": 479
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17R",
+     "crossKt": 0,
+     "densityAltFt": -1230
+    }
+   },
+   {
+    "n": 115,
+    "raw": "METAR KCRQ 172153Z VRB06G16KT 10SM CLR 20/07 A3002 RMK AO2 SLP162 T02000067",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 115,
+     "windDirTrue": null,
+     "windKt": 6,
+     "gustKt": 16,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "06",
+     "headKt": 6,
+     "crossKt": 0,
+     "densityAltFt": 315
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 6,
+     "gustKt": 16,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "06",
+     "crossKt": 0,
+     "densityAltFt": 870
+    }
+   },
+   {
+    "n": 116,
+    "raw": "METAR KFAR 180253Z 15010KT 10SM OVC030 10/05 A2991 RMK AO2 SLP136 T01000050 58012",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 116,
+     "windDirTrue": 150,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "MVFR",
+     "bestRunway": "13",
+     "headKt": 9.8,
+     "crossKt": 1.7,
+     "densityAltFt": 906
+    },
+    "truth": {
+     "windDirTrue": 150,
+     "windKt": 10,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "MVFR",
+     "bestRunway": "13",
+     "crossKt": 2.8,
+     "densityAltFt": 540
+    }
+   },
+   {
+    "n": 117,
+    "raw": "METAR KJAX 172056Z 04015G22KT 10SM -RA SCT013 BKN030 OVC055 18/16 A3030 RMK AO2 SLP260 P0000 60003 T01780161 55009 $",
+    "wrong": [
+     "ceilingFt",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 117,
+     "windDirTrue": 40,
+     "windKt": 15,
+     "gustKt": 22,
+     "visSm": 10,
+     "ceilingFt": 1300,
+     "category": "MVFR",
+     "bestRunway": "08",
+     "headKt": 14.9,
+     "crossKt": 1.3,
+     "densityAltFt": 26
+    },
+    "truth": {
+     "windDirTrue": 40,
+     "windKt": 15,
+     "gustKt": 22,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "MVFR",
+     "bestRunway": "08",
+     "crossKt": -8.4,
+     "densityAltFt": -100
+    }
+   },
+   {
+    "n": 118,
+    "raw": "METAR KAPA 180853Z COR 23016KT 10SM BKN220 11/M02 A2980 RMK AO2 PK WND 23028/0837 SLP047 T01061017 55002",
+    "wrong": [
+     "ceilingFt",
+     "bestRunway",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 118,
+     "windDirTrue": 230,
+     "windKt": 16,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "28",
+     "headKt": 15.5,
+     "crossKt": 4.1,
+     "densityAltFt": 5876
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 16,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 22000,
+     "category": "VFR",
+     "bestRunway": "17L",
+     "crossKt": -13.6,
+     "densityAltFt": 6910
+    }
+   },
+   {
+    "n": 119,
+    "raw": "METAR KOMA 180252Z 17022G29KT 10SM BKN250 11/01 A3013 RMK AO2 PK WND 17031/0229 SLP205 T01110006 58004",
+    "wrong": [
+     "ceilingFt",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 119,
+     "windDirTrue": 170,
+     "windKt": 22,
+     "gustKt": 29,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "18",
+     "headKt": 21.9,
+     "crossKt": 1.9,
+     "densityAltFt": 981
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 22,
+     "gustKt": 29,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "18",
+     "crossKt": -4.6,
+     "densityAltFt": 490
+    }
+   },
+   {
+    "n": 120,
+    "raw": "METAR KABQ 180152Z 11004KT 10SM BKN024 09/06 A3009 RMK AO2 SLP169 MTN TOPS OBSC NE SHRA DSNT SW-NW T00940061",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 120,
+     "windDirTrue": 110,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2400,
+     "category": "MVFR",
+     "bestRunway": "12",
+     "headKt": 4,
+     "crossKt": 0,
+     "densityAltFt": 5315
+    },
+    "truth": {
+     "windDirTrue": 110,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2400,
+     "category": "MVFR",
+     "bestRunway": "08",
+     "crossKt": -1.4,
+     "densityAltFt": 5710
+    }
+   },
+   {
+    "n": 121,
+    "raw": "METAR KFXE 172353Z 09017G22KT 2SM +RA BR BKN026 OVC034 22/21 A3012 RMK AO2 SLP201 P0067 60106 T02220206 10256 20217 51004",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 121,
+     "windDirTrue": 90,
+     "windKt": 17,
+     "gustKt": 22,
+     "visSm": 2,
+     "ceilingFt": 2600,
+     "category": "IFR",
+     "bestRunway": "09",
+     "headKt": 17,
+     "crossKt": 0,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 90,
+     "windKt": 17,
+     "gustKt": 22,
+     "visSm": 2,
+     "ceilingFt": 2600,
+     "category": "IFR",
+     "bestRunway": "09",
+     "crossKt": 2.1,
+     "densityAltFt": 630
+    }
+   },
+   {
+    "n": 122,
+    "raw": "METAR KSFO 181056Z 13019KT 10SM -RA FEW025 BKN036 OVC050 13/09 A2995 RMK AO2 RAB05 SLP141 P0000 T01280089 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 122,
+     "windDirTrue": 130,
+     "windKt": 19,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3600,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "headKt": 19,
+     "crossKt": 0,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 130,
+     "windKt": 19,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 3600,
+     "category": "VFR",
+     "bestRunway": "10L",
+     "crossKt": 5.2,
+     "densityAltFt": -290
+    }
+   },
+   {
+    "n": 123,
+    "raw": "METAR KFXE 180753Z 11013G24KT 3SM RA BR SCT016 BKN026 OVC045 22/21 A3008 RMK AO2 SLP188 P0017 T02220211",
+    "wrong": [
+     "ceilingFt",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 123,
+     "windDirTrue": 110,
+     "windKt": 13,
+     "gustKt": 24,
+     "visSm": 3,
+     "ceilingFt": 1600,
+     "category": "MVFR",
+     "bestRunway": "13",
+     "headKt": 13,
+     "crossKt": 0,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 110,
+     "windKt": 13,
+     "gustKt": 24,
+     "visSm": 3,
+     "ceilingFt": 2600,
+     "category": "MVFR",
+     "bestRunway": "13",
+     "crossKt": -2.9,
+     "densityAltFt": 680
+    }
+   },
+   {
+    "n": 124,
+    "raw": "METAR KMIA 180253Z 11016G22KT 10SM BKN030 BKN044 OVC050 25/19 A3011 RMK AO2 PK WND 12026/0238 SLP195 60000 T02500194 50001 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 124,
+     "windDirTrue": 110,
+     "windKt": 16,
+     "gustKt": 22,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "MVFR",
+     "bestRunway": "12",
+     "headKt": 16,
+     "crossKt": 0,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 110,
+     "windKt": 16,
+     "gustKt": 22,
+     "visSm": 10,
+     "ceilingFt": 3000,
+     "category": "MVFR",
+     "bestRunway": "12",
+     "crossKt": -1.4,
+     "densityAltFt": 970
+    }
+   },
+   {
+    "n": 125,
+    "raw": "METAR KHIO 180453Z 00000KT 6SM BR CLR 03/03 A2980 RMK AO2 SLP092 T00330028 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 125,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "31R",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 200
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "13R",
+     "crossKt": 0,
+     "densityAltFt": -1000
+    }
+   },
+   {
+    "n": 126,
+    "raw": "METAR KAMA 180253Z 18017G30KT 10SM OVC006 08/07 A3018 RMK AO2 PK WND 19034/0205 SLP210 T00830067 55005",
+    "wrong": [
+     "bestRunway",
+     "crossKt"
+    ],
+    "ai": {
+     "n": 126,
+     "windDirTrue": 180,
+     "windKt": 17,
+     "gustKt": 30,
+     "visSm": 10,
+     "ceilingFt": 600,
+     "category": "IFR",
+     "bestRunway": "22",
+     "headKt": 16,
+     "crossKt": 5.8,
+     "densityAltFt": 3600
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 17,
+     "gustKt": 30,
+     "visSm": 10,
+     "ceilingFt": 600,
+     "category": "IFR",
+     "bestRunway": "13",
+     "crossKt": -12.6,
+     "densityAltFt": 3360
+    }
+   },
+   {
+    "n": 127,
+    "raw": "METAR KSTS 181053Z AUTO 14018G28KT 3SM +RA BR FEW010 SCT018 OVC025 11/10 A2987 RMK AO2 PK WND 15029/1041 SLP108 P0024 T01060100",
+    "wrong": [
+     "ceilingFt",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 127,
+     "windDirTrue": 140,
+     "windKt": 18,
+     "gustKt": 28,
+     "visSm": 3,
+     "ceilingFt": 1000,
+     "category": "MVFR",
+     "bestRunway": "14",
+     "headKt": 18,
+     "crossKt": 0,
+     "densityAltFt": 200
+    },
+    "truth": {
+     "windDirTrue": 140,
+     "windKt": 18,
+     "gustKt": 28,
+     "visSm": 3,
+     "ceilingFt": 2500,
+     "category": "MVFR",
+     "bestRunway": "14",
+     "crossKt": -5,
+     "densityAltFt": -320
+    }
+   },
+   {
+    "n": 128,
+    "raw": "METAR KSBA 172253Z 29010G21KT 10SM CLR 19/03 A3004 RMK AO2 SLP172 T01940033",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 128,
+     "windDirTrue": 290,
+     "windKt": 10,
+     "gustKt": 21,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "25",
+     "headKt": 9.8,
+     "crossKt": 1.7,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 290,
+     "windKt": 10,
+     "gustKt": 21,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "25",
+     "crossKt": 4.4,
+     "densityAltFt": 390
+    }
+   },
+   {
+    "n": 129,
+    "raw": "METAR KSLC 172254Z 33009KT 10SM FEW009 BKN023 BKN041 06/04 A2974 RMK AO2 WSHFT 2158 RAE36 SLP052 P0002 T00610039 $",
+    "wrong": [
+     "ceilingFt",
+     "category"
+    ],
+    "ai": {
+     "n": 129,
+     "windDirTrue": 330,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 900,
+     "category": "IFR",
+     "bestRunway": "34R",
+     "headKt": 8.5,
+     "crossKt": 3.1,
+     "densityAltFt": 4200
+    },
+    "truth": {
+     "windDirTrue": 330,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2300,
+     "category": "MVFR",
+     "bestRunway": "32",
+     "crossKt": -3.2,
+     "densityAltFt": 4390
+    }
+   },
+   {
+    "n": 130,
+    "raw": "METAR KAMA 172353Z 19019KT 10SM OVC009 09/07 A3019 RMK AO2 PK WND 17029/2302 CIG 007V013 SLP212 T00890072 10094 20089 55000",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 130,
+     "windDirTrue": 190,
+     "windKt": 19,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 900,
+     "category": "IFR",
+     "bestRunway": "22",
+     "headKt": 17.8,
+     "crossKt": 6.5,
+     "densityAltFt": 3600
+    },
+    "truth": {
+     "windDirTrue": 190,
+     "windKt": 19,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 900,
+     "category": "IFR",
+     "bestRunway": "22",
+     "crossKt": -11.7,
+     "densityAltFt": 3420
+    }
+   },
+   {
+    "n": 131,
+    "raw": "METAR KMSY 180853Z 05010G16KT 10SM BKN019 15/12 A3023 RMK AO2 SLP239 T01500117 58018",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 131,
+     "windDirTrue": 50,
+     "windKt": 10,
+     "gustKt": 16,
+     "visSm": 10,
+     "ceilingFt": 1900,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "headKt": 9.8,
+     "crossKt": 1.7,
+     "densityAltFt": 0
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 10,
+     "gustKt": 16,
+     "visSm": 10,
+     "ceilingFt": 1900,
+     "category": "MVFR",
+     "bestRunway": "02",
+     "crossKt": 5.2,
+     "densityAltFt": -380
+    }
+   },
+   {
+    "n": 132,
+    "raw": "METAR KPVU 180556Z AUTO 33009KT 1 1/2SM -SN BR BKN006 OVC011 01/00 A3010 RMK AO2 UPB14E23SNE14B23 CIG 004V007 SLP193 P0000 6//// T00060000 10078 20006 401330006 51054 FZRANO",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 132,
+     "windDirTrue": 330,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 1.5,
+     "ceilingFt": 600,
+     "category": "IFR",
+     "bestRunway": "31",
+     "headKt": 8.5,
+     "crossKt": 3.1,
+     "densityAltFt": 4500
+    },
+    "truth": {
+     "windDirTrue": 330,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 1.5,
+     "ceilingFt": 600,
+     "category": "IFR",
+     "bestRunway": "31",
+     "crossKt": 1.3,
+     "densityAltFt": 3620
+    }
+   },
+   {
+    "n": 133,
+    "raw": "METAR KDET 180753Z 00000KT 5SM BR CLR 02/01 A3047 RMK AO2 SLP322 T00220011",
+    "wrong": [
+     "category",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 133,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 5,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 600
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 5,
+     "ceilingFt": null,
+     "category": "MVFR",
+     "bestRunway": "15",
+     "crossKt": 0,
+     "densityAltFt": -1450
+    }
+   },
+   {
+    "n": 137,
+    "raw": "METAR KPAE 172253Z 24005KT 10SM BKN024 10/04 A2991 RMK AO2 SLP131 T01000044",
+    "wrong": [
+     "bestRunway",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 137,
+     "windDirTrue": 240,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2400,
+     "category": "MVFR",
+     "bestRunway": "34L",
+     "headKt": 3.2,
+     "crossKt": 3.8,
+     "densityAltFt": 500
+    },
+    "truth": {
+     "windDirTrue": 240,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 2400,
+     "category": "MVFR",
+     "bestRunway": "16R",
+     "crossKt": -4.5,
+     "densityAltFt": 90
+    }
+   },
+   {
+    "n": 139,
+    "raw": "METAR KSAF 180553Z AUTO 23006KT 5SM RA BR FEW008 SCT023 OVC032 06/06 A3013 RMK AO2 WSHFT 0502 RAB06 SLP163 P0018 60018 T00610056 10100 20061 53003 $",
+    "wrong": [
+     "ceilingFt",
+     "category"
+    ],
+    "ai": {
+     "n": 139,
+     "windDirTrue": 230,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 5,
+     "ceilingFt": 800,
+     "category": "IFR",
+     "bestRunway": "20",
+     "headKt": 5.6,
+     "crossKt": 2.1,
+     "densityAltFt": 6300
+    },
+    "truth": {
+     "windDirTrue": 230,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 5,
+     "ceilingFt": 3200,
+     "category": "MVFR",
+     "bestRunway": "20",
+     "crossKt": 2.2,
+     "densityAltFt": 6470
+    }
+   },
+   {
+    "n": 142,
+    "raw": "METAR KBOI 181053Z AUTO 11009KT 9SM -SN FEW070 02/M01 A3002 RMK AO2 SNB48 SLP174 P0000 T00171011",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 142,
+     "windDirTrue": 110,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 9,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "headKt": 9,
+     "crossKt": 0,
+     "densityAltFt": 2822
+    },
+    "truth": {
+     "windDirTrue": 110,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 9,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10L",
+     "crossKt": -0.5,
+     "densityAltFt": 1780
+    }
+   },
+   {
+    "n": 143,
+    "raw": "METAR KPHL 180854Z VRB04KT 10SM CLR 07/03 A3049 RMK AO2 SLP323 T00670033 56002 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 143,
+     "windDirTrue": null,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "09R",
+     "headKt": 4,
+     "crossKt": 0,
+     "densityAltFt": -105
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "09R",
+     "crossKt": 0,
+     "densityAltFt": -1690
+    }
+   },
+   {
+    "n": 144,
+    "raw": "METAR KBFI 172253Z AUTO VRB03KT 10SM BKN060 12/03 A2991 RMK AO2 SLP129 T01170033",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 144,
+     "windDirTrue": null,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "32L",
+     "headKt": 3,
+     "crossKt": 0,
+     "densityAltFt": 23
+    },
+    "truth": {
+     "windDirTrue": null,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "14R",
+     "crossKt": 0,
+     "densityAltFt": -360
+    }
+   },
+   {
+    "n": 145,
+    "raw": "METAR KTPA 180553Z 07005KT 3SM RA BR OVC009 19/17 A3019 RMK AO2 RAB27 SLP223 P0001 60010 T01890172 10189 20172 51006 $",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 145,
+     "windDirTrue": 70,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 3,
+     "ceilingFt": 900,
+     "category": "IFR",
+     "bestRunway": "10",
+     "headKt": 5,
+     "crossKt": 0,
+     "densityAltFt": 107
+    },
+    "truth": {
+     "windDirTrue": 70,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 3,
+     "ceilingFt": 900,
+     "category": "IFR",
+     "bestRunway": "10",
+     "crossKt": -2.1,
+     "densityAltFt": 140
+    }
+   },
+   {
+    "n": 146,
+    "raw": "METAR KPVU 180656Z AUTO 05003KT 9SM -SN OVC023 01/00 A3012 RMK AO2 SLP204 P0000 T00060000 FZRANO",
+    "wrong": [
+     "bestRunway",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 146,
+     "windDirTrue": 50,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 9,
+     "ceilingFt": 2300,
+     "category": "MVFR",
+     "bestRunway": "31",
+     "headKt": 2,
+     "crossKt": 2,
+     "densityAltFt": 4495
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 9,
+     "ceilingFt": 2300,
+     "category": "MVFR",
+     "bestRunway": "36",
+     "crossKt": 3,
+     "densityAltFt": 3600
+    }
+   },
+   {
+    "n": 147,
+    "raw": "METAR KSAF 180353Z 13009KT 10SM OVC007 07/06 A3011 RMK AO2 SLP165 T00670056 $",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 147,
+     "windDirTrue": 130,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 700,
+     "category": "IFR",
+     "bestRunway": "15",
+     "headKt": 9,
+     "crossKt": 1,
+     "densityAltFt": 6353
+    },
+    "truth": {
+     "windDirTrue": 130,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 700,
+     "category": "IFR",
+     "bestRunway": "10",
+     "crossKt": -4.2,
+     "densityAltFt": 6570
+    }
+   },
+   {
+    "n": 149,
+    "raw": "METAR KSLC 180254Z 33009KT 1SM R16L/5000VP6000FT -SN BR SCT004 OVC008 01/00 A2996 RMK AO2 SFC VIS 1 1/4 PRESRR SLP137 P0014 60037 T00060000 53061 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 149,
+     "windDirTrue": 330,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 1,
+     "ceilingFt": 800,
+     "category": "IFR",
+     "bestRunway": "34L",
+     "headKt": 8,
+     "crossKt": 3,
+     "densityAltFt": 4219
+    },
+    "truth": {
+     "windDirTrue": 330,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 1,
+     "ceilingFt": 800,
+     "category": "IFR",
+     "bestRunway": "32",
+     "crossKt": -3.2,
+     "densityAltFt": 3450
+    }
+   },
+   {
+    "n": 150,
+    "raw": "METAR KHIO 181053Z AUTO 07009KT 10SM -RA BKN055 BKN070 08/03 A2970 RMK AO2 SLP056 P0001 T00780033 TSNO $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 150,
+     "windDirTrue": 70,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 5500,
+     "category": "VFR",
+     "bestRunway": "02",
+     "headKt": 6,
+     "crossKt": 7,
+     "densityAltFt": 203
+    },
+    "truth": {
+     "windDirTrue": 70,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 5500,
+     "category": "VFR",
+     "bestRunway": "02",
+     "crossKt": 5,
+     "densityAltFt": -340
+    }
+   },
+   {
+    "n": 153,
+    "raw": "METAR KPVU 180456Z AUTO 33014KT 6SM -SN BKN022 OVC029 02/M01 A3006 RMK AO2 RAE48SNB48 SLP173 P0000 T00171011 FZRANO",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 153,
+     "windDirTrue": 330,
+     "windKt": 14,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": 2200,
+     "category": "MVFR",
+     "bestRunway": "31",
+     "headKt": 14,
+     "crossKt": 1,
+     "densityAltFt": 4495
+    },
+    "truth": {
+     "windDirTrue": 330,
+     "windKt": 14,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": 2200,
+     "category": "MVFR",
+     "bestRunway": "31",
+     "crossKt": 1.9,
+     "densityAltFt": 3800
+    }
+   },
+   {
+    "n": 154,
+    "raw": "METAR KTPA 172153Z 05012KT 8SM -RA BKN038 BKN046 OVC055 18/16 A3021 RMK AO2 SLP229 P0007 T01780161 $",
+    "wrong": [
+     "crossKt"
+    ],
+    "ai": {
+     "n": 154,
+     "windDirTrue": 50,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 8,
+     "ceilingFt": 3800,
+     "category": "VFR",
+     "bestRunway": "01R",
+     "headKt": 11,
+     "crossKt": 5,
+     "densityAltFt": 7
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 8,
+     "ceilingFt": 3800,
+     "category": "VFR",
+     "bestRunway": "01L",
+     "crossKt": 8.5,
+     "densityAltFt": -10
+    }
+   },
+   {
+    "n": 155,
+    "raw": "METAR KAPA 172353Z COR 21019KT 10SM FEW150 SCT220 16/M04 A2979 RMK AO2 PK WND 22032/2306 SLP064 T01561044 10183 20150 55012",
+    "wrong": [
+     "bestRunway",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 155,
+     "windDirTrue": 210,
+     "windKt": 19,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "28",
+     "headKt": 18,
+     "crossKt": 6,
+     "densityAltFt": 5876
+    },
+    "truth": {
+     "windDirTrue": 210,
+     "windKt": 19,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17L",
+     "crossKt": -18.6,
+     "densityAltFt": 7520
+    }
+   },
+   {
+    "n": 157,
+    "raw": "METAR KIWA 172056Z 25013KT 10SM ACT041 SCT049 10/13 A2297",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 157,
+     "windDirTrue": 250,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "headKt": 12,
+     "crossKt": 5,
+     "densityAltFt": 1378
+    },
+    "truth": {
+     "windDirTrue": 250,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "crossKt": -11.6,
+     "densityAltFt": 9730
+    }
+   },
+   {
+    "n": 160,
+    "raw": "METAR KACV 180853Z AUTO 00000KT 2SM +RA BR BKN012 OVC017 08/08 A2975 RMK AO2 SLP079 P0032 60047 T00830078 53013",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 160,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 2,
+     "ceilingFt": 1200,
+     "category": "IFR",
+     "bestRunway": "19",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 207
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 2,
+     "ceilingFt": 1200,
+     "category": "IFR",
+     "bestRunway": "14",
+     "crossKt": 0,
+     "densityAltFt": -340
+    }
+   },
+   {
+    "n": 161,
+    "raw": "METAR KTPA 180753Z 05008G17KT 10SM SCT013 BKN028 OVC070 19/17 A3016 RMK AO2 SLP212 T01890167 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 161,
+     "windDirTrue": 50,
+     "windKt": 8,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": 2800,
+     "category": "MVFR",
+     "bestRunway": "01R",
+     "headKt": 7,
+     "crossKt": 3,
+     "densityAltFt": 1000
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 8,
+     "gustKt": 17,
+     "visSm": 10,
+     "ceilingFt": 2800,
+     "category": "MVFR",
+     "bestRunway": "01L",
+     "crossKt": 5.7,
+     "densityAltFt": 180
+    }
+   },
+   {
+    "n": 163,
+    "raw": "METAR KDET 180653Z AUTO 00000KT 6SM BR CLR 03/02 A3047 RMK AO2 SLP323 T00280017",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 163,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 450
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 6,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "crossKt": 0,
+     "densityAltFt": -1370
+    }
+   },
+   {
+    "n": 164,
+    "raw": "METAR KDEN 180153Z 26007KT 10SM BKN250 06/02 A2977 RMK AO2 SLP069 T00610022",
+    "wrong": [
+     "ceilingFt"
+    ],
+    "ai": {
+     "n": 164,
+     "windDirTrue": 260,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "26",
+     "headKt": 7,
+     "crossKt": 0,
+     "densityAltFt": 5650
+    },
+    "truth": {
+     "windDirTrue": 260,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "25",
+     "crossKt": -1,
+     "densityAltFt": 5850
+    }
+   },
+   {
+    "n": 165,
+    "raw": "METAR KICT 180453Z 18013KT 10SM SCT250 08/02 A3021 RMK AO2 SLP229 T00830017",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 165,
+     "windDirTrue": 180,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19L",
+     "headKt": 12,
+     "crossKt": 4,
+     "densityAltFt": 1300
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 13,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19R",
+     "crossKt": -3.1,
+     "densityAltFt": 580
+    }
+   },
+   {
+    "n": 166,
+    "raw": "METAR KIAH 180453Z 04005KT 10SM FEW045 12/06 A3026 RMK AO2 SLP245 T01220056",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 166,
+     "windDirTrue": 40,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "08R",
+     "headKt": 4,
+     "crossKt": 3,
+     "densityAltFt": 150
+    },
+    "truth": {
+     "windDirTrue": 40,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "08R",
+     "crossKt": -3.4,
+     "densityAltFt": -650
+    }
+   },
+   {
+    "n": 167,
+    "raw": "METAR KDFW 180653Z 00000KT 10SM BKN250 10/02 A3028 RMK AO2 SLP249 T01000017",
+    "wrong": [
+     "ceilingFt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 167,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "36L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 400
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "18L",
+     "crossKt": 0,
+     "densityAltFt": -360
+    }
+   },
+   {
+    "n": 169,
+    "raw": "METAR KMKE 180952Z 20005KT 10SM SCT250 04/00 A3036 RMK AO2 SLP285 T00440000 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 169,
+     "windDirTrue": 200,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19L",
+     "headKt": 4,
+     "crossKt": 3,
+     "densityAltFt": 500
+    },
+    "truth": {
+     "windDirTrue": 200,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19R",
+     "crossKt": 1.2,
+     "densityAltFt": -990
+    }
+   },
+   {
+    "n": 170,
+    "raw": "METAR KOKC 180252Z 16007KT 10SM FEW250 07/03 A3029 RMK AO2 SLP258 T00670033 53002",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 170,
+     "windDirTrue": 160,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17R",
+     "headKt": 7,
+     "crossKt": 1,
+     "densityAltFt": 1200
+    },
+    "truth": {
+     "windDirTrue": 160,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "17L",
+     "crossKt": -1.7,
+     "densityAltFt": 140
+    }
+   },
+   {
+    "n": 171,
+    "raw": "METAR KPHL 172054Z 24007KT 10SM FEW270 14/03 A3049 RMK AO2 SLP323 T01390028 55006 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 171,
+     "windDirTrue": 240,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27L",
+     "headKt": 6,
+     "crossKt": 3,
+     "densityAltFt": -50
+    },
+    "truth": {
+     "windDirTrue": 240,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "26",
+     "crossKt": -2.2,
+     "densityAltFt": -830
+    }
+   },
+   {
+    "n": 173,
+    "raw": "METAR KDET 172253Z 18006KT 10SM CLR 09/03 A3048 RMK AO2 SLP327 T00890028",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 173,
+     "windDirTrue": 180,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "headKt": 5,
+     "crossKt": 3,
+     "densityAltFt": 500
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "crossKt": 3.4,
+     "densityAltFt": -650
+    }
+   },
+   {
+    "n": 174,
+    "raw": "METAR KORD 180351Z 17007KT 10SM FEW250 07/01 A3040 RMK AO2 SLP298 T00720006 $",
+    "wrong": [
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 174,
+     "windDirTrue": 170,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "22L",
+     "headKt": 6,
+     "crossKt": 3,
+     "densityAltFt": 500
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "22L",
+     "crossKt": -5.1,
+     "densityAltFt": -710
+    }
+   },
+   {
+    "n": 176,
+    "raw": "METAR KSQL 180635Z AUTO 17004KT 10SM CLR 11/08 A3008 RMK A01",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 176,
+     "windDirTrue": 170,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "12",
+     "headKt": 3,
+     "crossKt": 3,
+     "densityAltFt": 0
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "12",
+     "crossKt": 2.3,
+     "densityAltFt": -670
+    }
+   },
+   {
+    "n": 177,
+    "raw": "METAR KBFI 180453Z AUTO 00000KT 10SM CLR 05/04 A2988 RMK AO2 SLP117 T00500039",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 177,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "32L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14R",
+     "crossKt": 0,
+     "densityAltFt": -1120
+    }
+   },
+   {
+    "n": 178,
+    "raw": "METAR KRDU 181051Z 00000KT 10SM FEW250 01/01 A3055 RMK AO2 SLP346 T00060006",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 178,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "32",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 350
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "05L",
+     "crossKt": 0,
+     "densityAltFt": -2020
+    }
+   },
+   {
+    "n": 179,
+    "raw": "METAR KPDX 180053Z 12007KT 10SM FEW019 FEW034 FEW045 09/07 A2989 RMK AO2 SLP122 T00940067 $",
+    "wrong": [
+     "ceilingFt",
+     "category",
+     "crossKt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 179,
+     "windDirTrue": 120,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 1900,
+     "category": "MVFR",
+     "bestRunway": "10R",
+     "headKt": 6,
+     "crossKt": 3,
+     "densityAltFt": 100
+    },
+    "truth": {
+     "windDirTrue": 120,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "crossKt": 0.5,
+     "densityAltFt": -610
+    }
+   },
+   {
+    "n": 180,
+    "raw": "METAR KPHL 180254Z 29005KT 10SM CLR 09/02 A3050 RMK AO2 SLP327 T00890022 58001 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 180,
+     "windDirTrue": 290,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27L",
+     "headKt": 4,
+     "crossKt": 3,
+     "densityAltFt": -50
+    },
+    "truth": {
+     "windDirTrue": 290,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "27L",
+     "crossKt": 2.6,
+     "densityAltFt": -1440
+    }
+   },
+   {
+    "n": 181,
+    "raw": "METAR KAUS 180353Z 00000KT 10SM FEW250 07/06 A3029 RMK AO2 SLP258 T00720061",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 181,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "36R",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 523
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "18R",
+     "crossKt": 0,
+     "densityAltFt": -790
+    }
+   },
+   {
+    "n": 182,
+    "raw": "METAR KMKE 180452Z 20006KT 10SM OVC250 07/01 A3038 RMK AO2 SLP290 T00670011 $",
+    "wrong": [
+     "ceilingFt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 182,
+     "windDirTrue": 200,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19L",
+     "headKt": 5,
+     "crossKt": 3,
+     "densityAltFt": 623
+    },
+    "truth": {
+     "windDirTrue": 200,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "19R",
+     "crossKt": 1.5,
+     "densityAltFt": -740
+    }
+   },
+   {
+    "n": 183,
+    "raw": "METAR KCMH 172251Z 00000KT 10SM CLR 10/02 A3052 RMK AO2 SLP340 T01000022",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 183,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "28L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 443
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "crossKt": 0,
+     "densityAltFt": -300
+    }
+   },
+   {
+    "n": 184,
+    "raw": "METAR KBLI 181053Z AUTO 03009KT 10SM CLR 03/00 A2985 RMK AO2 SLP116 T00330000",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 184,
+     "windDirTrue": 30,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "34",
+     "headKt": 8,
+     "crossKt": 4,
+     "densityAltFt": 151
+    },
+    "truth": {
+     "windDirTrue": 30,
+     "windKt": 9,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "34",
+     "crossKt": 5,
+     "densityAltFt": -1130
+    }
+   },
+   {
+    "n": 185,
+    "raw": "METAR KCMH 180851Z 00000KT 10SM CLR M01/M02 A3051 RMK AO2 SLP335 T10061017 56003",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 185,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "28L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 443
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "10R",
+     "crossKt": 0,
+     "densityAltFt": -1560
+    }
+   },
+   {
+    "n": 186,
+    "raw": "METAR KRDU 180851Z 00000KT 10SM CLR 01/01 A3052 RMK AO2 SLP334 T00110011 56003",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 186,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "32",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 397
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "05L",
+     "crossKt": 0,
+     "densityAltFt": -1920
+    }
+   },
+   {
+    "n": 187,
+    "raw": "METAR KMCI 172153Z 17012KT 10SM SCT250 14/01 A3028 RMK AO2 SLP256 T01440011 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 187,
+     "windDirTrue": 170,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19L",
+     "headKt": 11,
+     "crossKt": 4,
+     "densityAltFt": 1370
+    },
+    "truth": {
+     "windDirTrue": 170,
+     "windKt": 12,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "19R",
+     "crossKt": -4.5,
+     "densityAltFt": 730
+    }
+   },
+   {
+    "n": 188,
+    "raw": "METAR KDPA 180152Z 16004KT 10SM CLR 03/01 A3042 RMK AO2 SLP312 T00330011 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 188,
+     "windDirTrue": 160,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "headKt": 4,
+     "crossKt": 1,
+     "densityAltFt": 748
+    },
+    "truth": {
+     "windDirTrue": 160,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "crossKt": 0.8,
+     "densityAltFt": -1100
+    }
+   },
+   {
+    "n": 189,
+    "raw": "METAR KIND 180154Z 13005KT 10SM CLR 08/02 A3048 RMK AO2 SLP325 T00780017",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 189,
+     "windDirTrue": 130,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14",
+     "headKt": 5,
+     "crossKt": 1,
+     "densityAltFt": 744
+    },
+    "truth": {
+     "windDirTrue": 130,
+     "windKt": 5,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "14",
+     "crossKt": -0.4,
+     "densityAltFt": -570
+    }
+   },
+   {
+    "n": 190,
+    "raw": "METAR KBLI 180953Z AUTO 04008KT 10SM CLR 03/M01 A2987 RMK AO2 SLP123 T00331006",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 190,
+     "windDirTrue": 40,
+     "windKt": 8,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "34",
+     "headKt": 6,
+     "crossKt": 5,
+     "densityAltFt": 151
+    },
+    "truth": {
+     "windDirTrue": 40,
+     "windKt": 8,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "34",
+     "crossKt": 5.6,
+     "densityAltFt": -1150
+    }
+   },
+   {
+    "n": 191,
+    "raw": "METAR KOMA 180852Z 16020KT 10SM BKN250 08/00 A3009 RMK AO2 PK WND 16029/0834 SLP190 T00830000 55010",
+    "wrong": [
+     "ceilingFt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 191,
+     "windDirTrue": 160,
+     "windKt": 20,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "18",
+     "headKt": 19,
+     "crossKt": 6,
+     "densityAltFt": 1151
+    },
+    "truth": {
+     "windDirTrue": 160,
+     "windKt": 20,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 25000,
+     "category": "VFR",
+     "bestRunway": "14R",
+     "crossKt": -7.5,
+     "densityAltFt": 200
+    }
+   },
+   {
+    "n": 192,
+    "raw": "METAR KSNA 180653Z 08004KT 10SM SCT060 SCT250 15/04 A3011 RMK AO2 SLP196 LAST T01500039",
+    "wrong": [
+     "ceilingFt",
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 192,
+     "windDirTrue": 80,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 6000,
+     "category": "VFR",
+     "bestRunway": "02L",
+     "headKt": 3,
+     "crossKt": 3,
+     "densityAltFt": 266
+    },
+    "truth": {
+     "windDirTrue": 80,
+     "windKt": 4,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "02L",
+     "crossKt": 3,
+     "densityAltFt": -180
+    }
+   },
+   {
+    "n": 193,
+    "raw": "METAR KEUG 180554Z 18007KT 10SM SCT085 BKN110 08/03 A2974 RMK AO2 SLP072 T00780028 10100 20056 56015 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 193,
+     "windDirTrue": 180,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 11000,
+     "category": "VFR",
+     "bestRunway": "16L",
+     "headKt": 7,
+     "crossKt": 1,
+     "densityAltFt": 538
+    },
+    "truth": {
+     "windDirTrue": 180,
+     "windKt": 7,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": 11000,
+     "category": "VFR",
+     "bestRunway": "16R",
+     "crossKt": 0.6,
+     "densityAltFt": -200
+    }
+   },
+   {
+    "n": 194,
+    "raw": "METAR KVGT 181053Z AUTO 31003KT 10SM CLR 07/M01 A3012 RMK AO2 SLP215 T00671011",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 194,
+     "windDirTrue": 310,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "headKt": 3,
+     "crossKt": 0,
+     "densityAltFt": 2178
+    },
+    "truth": {
+     "windDirTrue": 310,
+     "windKt": 3,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "30L",
+     "crossKt": -0.2,
+     "densityAltFt": 1460
+    }
+   },
+   {
+    "n": 195,
+    "raw": "METAR KADS 180855Z AUTO 11006KT 10SM CLR 10/03 A3027 RMK AO2",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 195,
+     "windDirTrue": 110,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "16",
+     "headKt": 4,
+     "crossKt": 4,
+     "densityAltFt": 650
+    },
+    "truth": {
+     "windDirTrue": 110,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "16",
+     "crossKt": -4.8,
+     "densityAltFt": -230
+    }
+   },
+   {
+    "n": 196,
+    "raw": "METAR KBTV 180254Z 00000KT 10SM FEW050 04/01 A3037 RMK AO2 SLP288 T00390011 50005",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 196,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 331
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "15",
+     "crossKt": 0,
+     "densityAltFt": -1480
+    }
+   },
+   {
+    "n": 197,
+    "raw": "METAR KSBA 180953Z 00000KT 10SM CLR 07/02 A3010 RMK AO2 SLP191 T00670022 $",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 197,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 7
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "07",
+     "crossKt": 0,
+     "densityAltFt": -1210
+    }
+   },
+   {
+    "n": 198,
+    "raw": "METAR KADS 180735Z AUTO 05001KT 10SM CLR 09/03 A3028 RMK AO2",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 198,
+     "windDirTrue": 50,
+     "windKt": 1,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "34",
+     "headKt": 1,
+     "crossKt": 0,
+     "densityAltFt": 650
+    },
+    "truth": {
+     "windDirTrue": 50,
+     "windKt": 1,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "34",
+     "crossKt": 0.9,
+     "densityAltFt": -360
+    }
+   },
+   {
+    "n": 199,
+    "raw": "METAR KISP 181056Z 00000KT 10SM CLR 01/01 A3045 RMK SLP312 T00061006",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 199,
+     "windDirTrue": null,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "33L",
+     "headKt": 0,
+     "crossKt": 0,
+     "densityAltFt": 82
+    },
+    "truth": {
+     "windDirTrue": 0,
+     "windKt": 0,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "06",
+     "crossKt": 0,
+     "densityAltFt": -2280
+    }
+   },
+   {
+    "n": 200,
+    "raw": "METAR KSBA 180253Z 29006KT 10SM CLR 13/04 A3010 RMK AO2 SLP193 T01330044 53020",
+    "wrong": [
+     "densityAltFt"
+    ],
+    "ai": {
+     "n": 200,
+     "windDirTrue": 290,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "25",
+     "headKt": 5,
+     "crossKt": 3,
+     "densityAltFt": 7
+    },
+    "truth": {
+     "windDirTrue": 290,
+     "windKt": 6,
+     "gustKt": null,
+     "visSm": 10,
+     "ceilingFt": null,
+     "category": "VFR",
+     "bestRunway": "25",
+     "crossKt": 2.6,
+     "densityAltFt": -420
+    }
+   }
+  ],
+  "hybridFails": [
+   {
+    "n": 5,
+    "raw": "METAR KCHD 172347Z 24007G17KT 10SM BKN040 20/09 A3000",
+    "text": "KCHD 공항은 돌풍 차이 10kt(7→17kt)의 위험 요소가 있어 주의가 필요합니다. 풍향 228도에서 7kt의 바람이 불며 시정은 10sm, 운고는 4000ft입니다. 밀도고도는 2040ft이며 22L 활주로를 권장합니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 9,
+    "raw": "METAR KORL 180253Z 05007KT 10SM -RA FEW030 SCT037 OVC080 18/17 A3024 RMK AO2 SLP244 P0000 60011 T01830172 55004",
+    "text": "KORL 공항은 기온·이슬점 차 1.1°C로 안개나 낮은 구름이 생길 수 있어 주의가 필요합니다. 풍향 56도에서 7kt의 바람이 불며 시정은 10sm, 운고는 8000ft입니다. 밀도고도는 130ft이며 07 활주로를 권장합니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 10,
+    "raw": "METAR KRAP 180552Z AUTO 21010G20KT 10SM CLR 08/04 A2964 RMK AO2 SLP034 T00830039 10133 20061 56013",
+    "text": "KRAP 공항은 돌풍 차이 10kt(10→20kt)의 위험 요소가 있어 주의가 필요합니다. 풍향 202도에서 10kt의 바람이 불며 시정은 10sm입니다. 밀도고도는 3470ft이며 23 활주로를 권장합니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 13,
+    "raw": "METAR KIAD 180852Z 00000KT 10SM CLR M01/M02 A3052 RMK AO2 SLP335 I1001 I3001 T10111017 58003",
+    "text": "KIAD 공항은 기온과 이슬점 차가 0.6°C로 낮아 안개나 낮은 구름이 발생할 위험이 있습니다. 시정은 10SM이며 밀도고도는 -2310ft입니다. 01C 활주로를 이용하며 주의 깊게 기상 변화를 관찰하십시오.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 16,
+    "raw": "METAR KRAP 180952Z AUTO 09005KT 10SM CLR 03/02 A2961 RMK AO2 SLP024 T00330017",
+    "text": "KRAP 공항은 기온과 이슬점 차가 1.6°C로 안개나 낮은 구름이 발생할 가능성이 있어 주의가 필요합니다. 밀도고도는 2910ft이며 05 활주로 이용 시 4.2kt의 정풍과 2.6kt의 측풍이 예상됩니다. 시정은 10SM으로 확보되어 있습니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 21,
+    "raw": "METAR KSMX 180351Z AUTO 00000KT 10SM CLR 11/07 A3015 RMK AO2 SLP215 T01110072",
+    "text": "KSMX 공항은 시정 10SM으로 기상 조건이 양호합니다. 바람은 346도에서 0kt로 불어 이착륙에 지장이 없습니다. 밀도 고도는 -460ft로 항공기 성능에 긍정적인 영향을 줍니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "GO",
+    "truthVerdict": "GO"
+   },
+   {
+    "n": 22,
+    "raw": "METAR KBOS 172254Z 24009G19KT 10SM FEW250 12/02 A3036 RMK AO2 SLP281 T01170017",
+    "text": "KBOS 공항은 돌풍 차이 10kt(9→19kt)가 발생하여 주의가 필요합니다. 바람은 255도에서 9kt로 불며, 27번 활주로 이용 시 정풍 8.7kt가 예상됩니다. 기상 상황을 면밀히 주시하며 비행하시기 바랍니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 23,
+    "raw": "METAR KABQ 180052Z 18008KT 10SM SCT035 BKN090 11/07 A3007 RMK AO2 SLP158 MTN TOPS OBSC NE AND SE SHRA DSNT SW-NW T01060067",
+    "text": "KABQ 공항은 밀도 고도가 5,880ft로 높아 이륙 거리가 늘어나고 상승 성능이 약해질 수 있습니다. 21번 활주로 이용 시 정풍 6kt가 예상됩니다. 높은 밀도 고도로 인한 성능 저하를 반드시 고려하십시오.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 24,
+    "raw": "METAR KTUS 180753Z 15004KT 10SM CLR 12/07 A3014 RMK AO2 SLP178 T01170067",
+    "text": "KTUS 공항은 시정 10SM으로 비행하기에 적합합니다. 12번 활주로 이용 시 정풍 3.7kt와 측풍 1.4kt가 예상됩니다. 밀도 고도는 2,490ft로 안정적인 비행이 가능합니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "GO",
+    "truthVerdict": "GO"
+   },
+   {
+    "n": 25,
+    "raw": "METAR KBHM 180553Z 08005KT 10SM CLR 11/M01 A3046 RMK AO2 SLP311 T01111011 10128 20100 401940050 50002",
+    "text": "KBHM 공항은 시정 10SM으로 기상 상태가 양호합니다. 06번 활주로 이용 시 정풍 4.6kt와 측풍 2kt가 예상됩니다. 밀도 고도는 -360ft로 항공기 운용에 매우 유리합니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "GO",
+    "truthVerdict": "GO"
+   },
+   {
+    "n": 26,
+    "raw": "METAR KCMH 180951Z 00000KT 9SM CLR M01/M02 A3051 RMK AO2 SLP337 T10061017",
+    "text": "KCMH 공항은 기온과 이슬점 차이가 1.1°C로 낮아 안개나 낮은 구름이 생길 위험이 있습니다. 시정은 9SM이며 10R 활주로 이용 시 바람은 0kt입니다. 기상 변화를 지속적으로 확인하십시오.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 27,
+    "raw": "METAR KBJC 180855Z AUTO 28003KT 10SM CLR 09/M02 A2981 RMK AO2",
+    "text": "KBJC 공항은 밀도 고도가 6,310ft로 매우 높아 이륙 거리 증가와 상승 성능 저하가 우려됩니다. 30R 활주로 이용 시 정풍 2.6kt가 예상됩니다. 높은 밀도 고도에 따른 성능 변화를 철저히 계산하십시오.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 28,
+    "raw": "METAR KDET 180853Z 23004KT 7SM CLR 05/02 A3047 RMK AO2 SLP322 T00500017 55002",
+    "text": "KDET 공항은 시정 7SM으로 비행이 가능합니다. 15번 활주로 이용 시 정풍 0.3kt와 측풍 4kt가 예상됩니다. 밀도 고도는 -1,110ft로 항공기 성능에 매우 좋습니다.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "GO",
+    "truthVerdict": "GO"
+   },
+   {
+    "n": 29,
+    "raw": "METAR KACV 172253Z AUTO 15014G23KT 10SM SCT055 13/04 A2995 RMK AO2 SLP149 T01330044",
+    "text": "KACV 공항은 돌풍이 23kt까지 불어 주의가 필요합니다. 14번 활주로 이용 시 정풍 13.9kt와 측풍 -1.7kt가 예상됩니다. 강한 돌풍에 대비하여 안전한 이착륙을 수행하십시오.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   },
+   {
+    "n": 30,
+    "raw": "METAR KRAP 172152Z 18019G24KT 10SM CLR 19/02 A2966 RMK AO2 SLP038 T01940022 $",
+    "text": "KRAP 공항은 돌풍 24kt와 함께 돌풍 시 측풍이 13kt로 학생 조종사 한계인 10kt를 초과하여 주의가 필요합니다. 14번 활주로 이용 시 정풍 16.1kt와 측풍 10.1kt가 예상됩니다. 기상 한계를 고려하여 신중하게 판단하십시오.",
+    "unknown": [],
+    "missing": [],
+    "flipped": false,
+    "verdict": "CAUTION",
+    "truthVerdict": "CAUTION"
+   }
+  ]
+ }
+}

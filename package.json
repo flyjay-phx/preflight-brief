@@ -1,0 +1,19 @@
+{
+  "name": "preflight-brief",
+  "version": "1.0.0",
+  "description": "프리플라이트 브리핑: 실제 METAR·TAF를 코드로 계산하고 Gemini가 한국어로 설명하는 학생 조종사용 비행 전 브리핑·무전 연습 웹",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-force-exit tests/*.test.js",
+    "eval:collect": "node scripts/collect.js",
+    "eval": "node scripts/eval.js"
+  },
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=20.12" },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

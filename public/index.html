@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>프리플라이트 브리핑</title>
+  <meta name="description" content="실제 METAR·TAF를 코드로 계산하고 AI가 한국어로 설명하는 학생 조종사용 비행 전 브리핑·무전 연습" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111820'/%3E%3Cpath d='M32 10l5 18 17 6-17 4-5 16-5-16-17-4 17-6z' fill='%23ffb547'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">✈</span>
+      <div>
+        <b>프리플라이트 브리핑</b>
+        <small>METAR · TAF → 한국어 비행 전 브리핑</small>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="brief" aria-selected="true">브리핑</button>
+      <button role="tab" data-tab="radio">무전 연습</button>
+      <button role="tab" data-tab="lab">실험</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 브리핑 -->
+    <section id="tab-brief" class="tab">
+      <form id="f-brief" class="card form">
+        <label>출발 공항<input id="f-dep" value="KDVT" maxlength="4" autocomplete="off" spellcheck="false" /></label>
+        <label>도착 공항 <small>(비우면 장주 연습)</small><input id="f-arr" placeholder="예: KPRC" maxlength="4" autocomplete="off" spellcheck="false" /></label>
+        <label>기체<select id="f-ac"></select></label>
+        <label>내 옆바람 한계 <small>(kt, 교관과 정한 값)</small><input id="f-xw" type="number" min="3" max="25" step="1" value="10" /></label>
+        <label>기체 번호 <small>(무전 호출부호)</small><input id="f-tail" value="N172SP" maxlength="6" autocomplete="off" spellcheck="false" /></label>
+        <button class="primary" type="submit">브리핑 받기</button>
+        <div class="quick">
+          <span>빠른 선택</span>
+          <button type="button" data-q="KDVT,">디어밸리 장주</button>
+          <button type="button" data-q="KDVT,KPRC">디어밸리 → 프레스콧</button>
+          <button type="button" data-q="KSQL,KMRY">샌카를로스 → 몬터레이</button>
+          <button type="button" data-q="KBFI,KPAE">보잉필드 → 페인필드</button>
+        </div>
+      </form>
+
+      <div id="verdict" class="verdict" hidden></div>
+      <div id="stations" class="stations"></div>
+
+      <section id="ai" class="card ai" hidden>
+        <div class="ai-head">
+          <h2>AI 브리핑 <small id="ai-meta"></small></h2>
+          <button id="ai-retry" class="ghost" type="button" hidden>다시 쓰기</button>
+        </div>
+        <div id="ai-body"></div>
+        <p id="ai-check" class="numcheck"></p>
+      </section>
+
+      <section id="ask" class="card ask" hidden>
+        <h2>이어서 물어보기</h2>
+        <div id="chat" class="chat"></div>
+        <div id="follow" class="follow"></div>
+        <form id="f-ask" class="askrow">
+          <input id="f-q" placeholder="예: 25L로 내리면 옆바람 수정은 어느 쪽으로?" maxlength="300" autocomplete="off" />
+          <button class="primary" type="submit">묻기</button>
+        </form>
+      </section>
+      <p class="disclaimer">연습용 도구입니다. 실제 비행 결정은 공식 브리핑(1800wxbrief 등), POH, 교관과 함께 하세요. 숫자는 코드가 계산하고 AI는 설명만 합니다.</p>
+    </section>
+
+    <!-- 무전 연습 -->
+    <section id="tab-radio" class="tab" hidden>
+      <div class="card">
+        <h2>ATIS 받아쓰기 <small id="atis-src"></small></h2>
+        <p class="dim">지금 <b id="atis-apt">KDVT</b>의 실제 날씨로 만든 ATIS입니다. 듣고 빈칸을 채우세요.</p>
+        <div class="row">
+          <button id="atis-play" class="primary" type="button">▶ ATIS 듣기</button>
+          <button id="atis-slow" class="ghost" type="button">천천히</button>
+          <button id="atis-show" class="ghost" type="button">글로 보기</button>
+        </div>
+        <p id="atis-text" class="mono atis" hidden></p>
+        <form id="f-atis" class="atisform">
+          <label>정보 문자<input name="letter" placeholder="예: Bravo" /></label>
+          <label>풍향(°)<input name="windDir" inputmode="numeric" placeholder="예: 270" /></label>
+          <label>풍속(kt)<input name="windKt" inputmode="numeric" placeholder="예: 10" /></label>
+          <label>고도계<input name="altim" inputmode="decimal" placeholder="예: 30.01" /></label>
+          <label>활주로<input name="runway" placeholder="예: 7R" /></label>
+          <button class="primary" type="submit">채점</button>
+        </form>
+        <div id="atis-result"></div>
+      </div>
+
+      <div id="scenarios"></div>
+      <p class="disclaimer">마이크 입력은 브라우저 음성 인식(Chrome·Edge)을 씁니다. 지원하지 않으면 직접 쳐서 연습하세요. 소리를 글자로 바꾸는 일은 브라우저(구글·MS 음성 인식)가 하고, 이 앱 서버에는 글자만 오며 저장하지 않습니다.</p>
+    </section>
+
+    <!-- 실험 -->
+    <section id="tab-lab" class="tab" hidden>
+      <div id="lab"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+  <script type="module" src="/app.js"></script>
+  <noscript>이 페이지는 자바스크립트가 필요합니다.</noscript>
+</body>
+</html>
